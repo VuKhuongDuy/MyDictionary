@@ -1,20 +1,14 @@
-anyone can do	ai làm cũng được
-anytime (is fine)	bao giờ cũng ok
-apartheid	a pác thai
+anyone can do	ai cũng có thể làm
 apartment building	xây dựng chung cư
 apatite	a pa tít
 apologize; defense (legal)	biện hộ
 apparent	biểu diện
 approximately; to make a rough estimate	ang áng
-apéritif	a pê ri típ
 arab block	Khối Ả Rập
 araucaria	bách tán
-archbishop (cao dai)	Phối Sư
 archeology	bác cổ
-archivist (cao dai)	Sĩ Tải
 argue somebody out of doing	bàn lùi
-argue to refuse (to do something)	bàn lùi
-argue; exposition	biện thuyết
+argue; exposition	tranh luận
 arhat	La Hán
 armory	binh xưởng
 arms	binh khí
@@ -140,8 +134,6 @@ bomb explosion	bom nổ
 book in sanskrit	Phạn thư
 book of prophesy (c. 1670)	Sấm Truyền Ca
 book on military tactics	binh thư
-border	biên cương, biên đình
-border	biên, biên thùy
 border	biên giới
 border guard	biên phòng
 border region	biên cảnh
@@ -1340,9 +1332,9 @@ pack	bao
 pack of cigarettes	bao thuốc lá
 package of cigarettes	bao thuốc
 packaging	bao bì, bao gói
-pagoda	am tự
+pagoda	am tự,chùa
 painful	bi thảm, bi khổ
-pakistan	Hồi Quốc
+pakistan	Nước Pakistan
 palace	biệt điện
 palace of wisdom (cao dai)	Thiên Hỉ Động
 pali	Phạn ngữ
@@ -2352,12 +2344,10 @@ usurp	bá chiếm
 utter	buông lời
 valiant	anh dũng
 valuable lesson	bài học đáng giá, bài học quý giá
-vanish	biệt dạng, biến đi
 vanish	biến mất
 vanish; (2) to change	biến
 variable	biến số
 variance	biến tố
-variant	biến hiệu, biến thái
 variant	biến thể
 variation	biến loại, biến tiết
 vary	biến đổi
@@ -2485,8 +2475,8 @@ younger brother	bào đệ
 yugoslavia	Nam Tư
 yunnan	Vân Nam
 hello	xin chao
-fuck	khốn nạn
 a	một, một thứ gì đó
 cheers	zô(uống bia,rượu)
 anyone	ai
 	
+mouse	chuột
