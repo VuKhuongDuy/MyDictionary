@@ -40,8 +40,6 @@ public class Word {
     
     Boolean equalWord(Word w)
     {
-        if(this.Spelling.equals(w.getSpelling()))
-            return true;
-        return false;
+        return this.Spelling.equals(w.getSpelling());
     }
 }
