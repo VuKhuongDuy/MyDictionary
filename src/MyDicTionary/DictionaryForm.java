@@ -6,18 +6,15 @@
 package MyDicTionary;
 
 import java.awt.event.KeyEvent;
-import java.util.LinkedList;
 import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
-//import com.sun.speech.freetts.VoiceManager;
+import com.sun.speech.freetts.VoiceManager;
 import com.sun.speech.freetts.*;
 import com.darkprograms.speech.translator.GoogleTranslate;
 import java.awt.Color;
 import java.awt.Font;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Random;
+import java.util.Map;
 /**
  *
  * @author vukhu
@@ -32,6 +29,8 @@ public class DictionaryForm extends javax.swing.JFrame {
         
         buttonGroup2.add(RBtnOffline);
         buttonGroup2.add(RBtnOnline);
+        txtArListWord.setLineWrap(true);
+        txtArListWord.setWrapStyleWord(true);
         
         dictionary = new Dictionary(LoaiTuDien());
         LoadListWord(dictionary.listWord);
@@ -47,6 +46,7 @@ public class DictionaryForm extends javax.swing.JFrame {
         buttonGroup2 = new javax.swing.ButtonGroup();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
+        jFrame1 = new javax.swing.JFrame();
         jPanel2 = new javax.swing.JPanel();
         btnSpeakFast = new javax.swing.JButton();
         btnEdit = new javax.swing.JButton();
@@ -64,6 +64,8 @@ public class DictionaryForm extends javax.swing.JFrame {
         txtEdit = new javax.swing.JTextField();
         RBtnOffline = new javax.swing.JRadioButton();
         RBtnOnline = new javax.swing.JRadioButton();
+        txtAddSpelling = new javax.swing.JTextField();
+        txtAddExplain = new javax.swing.JTextField();
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
@@ -71,9 +73,20 @@ public class DictionaryForm extends javax.swing.JFrame {
         jTextArea1.setRows(5);
         jScrollPane3.setViewportView(jTextArea1);
 
+        javax.swing.GroupLayout jFrame1Layout = new javax.swing.GroupLayout(jFrame1.getContentPane());
+        jFrame1.getContentPane().setLayout(jFrame1Layout);
+        jFrame1Layout.setHorizontalGroup(
+            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        jFrame1Layout.setVerticalGroup(
+            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Dictionary");
-        setBackground(new java.awt.Color(0, 204, 153));
+        setBackground(new java.awt.Color(0, 0, 0));
         setBounds(new java.awt.Rectangle(200, 200, 200, 200));
         setIconImage(getIconImage());
         setIconImages(getIconImages());
@@ -84,9 +97,9 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        jPanel2.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel2.setBackground(new java.awt.Color(153, 153, 255));
 
-        btnSpeakFast.setBackground(new java.awt.Color(102, 102, 102));
+        btnSpeakFast.setBackground(new java.awt.Color(255, 153, 51));
         btnSpeakFast.setIcon(new javax.swing.ImageIcon("D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\Image\\icons8-speaker-30.png")); // NOI18N
         btnSpeakFast.setBorder(null);
         btnSpeakFast.addActionListener(new java.awt.event.ActionListener() {
@@ -95,8 +108,8 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        btnEdit.setBackground(new java.awt.Color(102, 102, 102));
-        btnEdit.setIcon(new javax.swing.ImageIcon("D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\Image\\icons8-pencil-50.png")); // NOI18N
+        btnEdit.setBackground(new java.awt.Color(255, 153, 51));
+        btnEdit.setIcon(new javax.swing.ImageIcon("D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\Image\\icons8-pencil-40.png")); // NOI18N
         btnEdit.setBorder(null);
         btnEdit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -104,8 +117,8 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        btnDelete.setBackground(new java.awt.Color(102, 102, 102));
-        btnDelete.setIcon(new javax.swing.ImageIcon("D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\Image\\icons8-empty-trash-50.png")); // NOI18N
+        btnDelete.setBackground(new java.awt.Color(255, 153, 51));
+        btnDelete.setIcon(new javax.swing.ImageIcon("D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\Image\\icons8-full-trash-40.png")); // NOI18N
         btnDelete.setBorder(null);
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -113,7 +126,7 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        btnAdd.setBackground(new java.awt.Color(102, 102, 102));
+        btnAdd.setBackground(new java.awt.Color(255, 153, 51));
         btnAdd.setIcon(new javax.swing.ImageIcon("D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\Image\\icons8-plus-40.png")); // NOI18N
         btnAdd.setBorder(null);
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
@@ -122,10 +135,10 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        jLabel6.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 102, 0));
+        jLabel6.setFont(new java.awt.Font("Microsoft New Tai Lue", 1, 36)); // NOI18N
         jLabel6.setText("Dictionary English-Vietnamess");
 
+        txtSearch.setFont(new java.awt.Font("Tahoma", 2, 11)); // NOI18N
         txtSearch.setForeground(new java.awt.Color(153, 153, 153));
         txtSearch.setText("Search...");
         txtSearch.addFocusListener(new java.awt.event.FocusAdapter() {
@@ -163,7 +176,7 @@ public class DictionaryForm extends javax.swing.JFrame {
         txtArListWord.setAutoscrolls(false);
         jScrollPane2.setViewportView(txtArListWord);
 
-        btnSpeakSlow.setBackground(new java.awt.Color(102, 102, 102));
+        btnSpeakSlow.setBackground(new java.awt.Color(255, 153, 51));
         btnSpeakSlow.setIcon(new javax.swing.ImageIcon("D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\Image\\icons8-speaker-filled-30.png")); // NOI18N
         btnSpeakSlow.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -171,9 +184,8 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        RBtnVA.setBackground(new java.awt.Color(0, 0, 0));
+        RBtnVA.setBackground(new java.awt.Color(204, 204, 204));
         RBtnVA.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        RBtnVA.setForeground(new java.awt.Color(255, 255, 255));
         RBtnVA.setText("Việt-Anh");
         RBtnVA.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -181,9 +193,8 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        RBtnAV.setBackground(new java.awt.Color(0, 0, 0));
+        RBtnAV.setBackground(new java.awt.Color(204, 204, 204));
         RBtnAV.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        RBtnAV.setForeground(new java.awt.Color(255, 255, 255));
         RBtnAV.setSelected(true);
         RBtnAV.setText("Anh-Việt");
         RBtnAV.addActionListener(new java.awt.event.ActionListener() {
@@ -192,7 +203,7 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        txtEdit.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        txtEdit.setFont(new java.awt.Font("Tahoma", 2, 12)); // NOI18N
         txtEdit.setForeground(new java.awt.Color(153, 153, 153));
         txtEdit.setText("Edit...");
         txtEdit.addFocusListener(new java.awt.event.FocusAdapter() {
@@ -204,9 +215,8 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        RBtnOffline.setBackground(new java.awt.Color(0, 0, 0));
+        RBtnOffline.setBackground(new java.awt.Color(204, 204, 204));
         RBtnOffline.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        RBtnOffline.setForeground(new java.awt.Color(255, 255, 255));
         RBtnOffline.setSelected(true);
         RBtnOffline.setText("Offline");
         RBtnOffline.addActionListener(new java.awt.event.ActionListener() {
@@ -215,13 +225,36 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        RBtnOnline.setBackground(new java.awt.Color(0, 0, 0));
+        RBtnOnline.setBackground(new java.awt.Color(204, 204, 204));
         RBtnOnline.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        RBtnOnline.setForeground(new java.awt.Color(255, 255, 255));
         RBtnOnline.setText("Online");
         RBtnOnline.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RBtnOnlineActionPerformed(evt);
+            }
+        });
+
+        txtAddSpelling.setFont(new java.awt.Font("Tahoma", 2, 11)); // NOI18N
+        txtAddSpelling.setForeground(new java.awt.Color(153, 153, 153));
+        txtAddSpelling.setText("Add spelling...");
+        txtAddSpelling.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                txtAddSpellingFocusGained(evt);
+            }
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtAddSpellingFocusLost(evt);
+            }
+        });
+
+        txtAddExplain.setFont(new java.awt.Font("Tahoma", 2, 11)); // NOI18N
+        txtAddExplain.setForeground(new java.awt.Color(153, 153, 153));
+        txtAddExplain.setText("Add explain...");
+        txtAddExplain.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                txtAddExplainFocusGained(evt);
+            }
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtAddExplainFocusLost(evt);
             }
         });
 
@@ -230,84 +263,90 @@ public class DictionaryForm extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(RBtnAV)
-                                .addGap(18, 18, 18)
-                                .addComponent(RBtnVA)
-                                .addGap(69, 69, 69)
-                                .addComponent(RBtnOffline)
-                                .addGap(32, 32, 32)
-                                .addComponent(RBtnOnline))
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addGroup(jPanel2Layout.createSequentialGroup()
-                                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 238, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(jPanel2Layout.createSequentialGroup()
-                                    .addComponent(txtSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 271, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(txtEdit))))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(txtSearch)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 215, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(btnSpeakSlow, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                            .addComponent(btnEdit, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnDelete, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnAdd, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnSpeakFast, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(txtEdit)
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 296, Short.MAX_VALUE)
+                            .addComponent(txtAddSpelling)
+                            .addComponent(txtAddExplain)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(23, 23, 23)
-                        .addComponent(jLabel6)))
+                        .addGap(48, 48, 48)
+                        .addComponent(RBtnAV)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(RBtnVA)
+                        .addGap(77, 77, 77)
+                        .addComponent(RBtnOffline)
+                        .addGap(70, 70, 70)
+                        .addComponent(RBtnOnline)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(btnEdit, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnSpeakFast, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnSpeakSlow, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnDelete, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(36, 36, 36)
+                .addComponent(jLabel6)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 29, Short.MAX_VALUE)
+                .addContainerGap(20, Short.MAX_VALUE)
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(RBtnVA)
                     .addComponent(RBtnAV)
+                    .addComponent(RBtnVA)
                     .addComponent(RBtnOffline)
                     .addComponent(RBtnOnline))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(btnEdit)
-                        .addGap(13, 13, 13)
-                        .addComponent(btnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txtSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtEdit, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtAddSpelling, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtAddExplain, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jScrollPane1)))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(btnEdit, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnSpeakFast, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnSpeakSlow, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnDelete))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txtSearch)
-                            .addComponent(txtEdit, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 250, Short.MAX_VALUE)
-                            .addComponent(jScrollPane2))))
-                .addContainerGap())
+                        .addComponent(btnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE))))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 1, Short.MAX_VALUE))
+            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 584, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -340,40 +379,19 @@ public class DictionaryForm extends javax.swing.JFrame {
         }
     }
     
-    private void LoadListWord(LinkedList<Word> listWord)
+    private void LoadListWord(Map<String,String> listWord)
     {
         DefaultListModel dml = new DefaultListModel();
-        int i=0;
         //dictionary.QuickSort(listWord, 0, listWord.size()-1);
-        for(Word item: listWord)
-            dml.addElement(item.getSpelling());
+        for(String key:listWord.keySet())
+            dml.addElement(key);
         JlstWord.setModel(dml);
     }
     
-    public void QuickSort(LinkedList<String> lstWord, int l, int r) 
-    {
-        Random rd = new Random();
-        int c = rd.nextInt(r - l + 1);
-        String key = lstWord.get(l + c);
-        int i = l, j = r;
-        while (i <= j) {
-            while (lstWord.get(i).compareTo(key) < 0)  i++;
-            while (lstWord.get(j).compareTo(key) > 0)  j--;
-            if (i <= j) {
-                if (i < j)
-                    Collections.swap(lstWord, i, j);
-                i++; j--;
-            }
-            if (l < j) QuickSort(lstWord, l, j);
-            if (i < r) QuickSort(lstWord, i, r);
-        }
-    }
-
-    
     private void txtSearchKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtSearchKeyReleased
-            if(dictionary.searchKeyWord(txtSearch.getText())!=null)
+            if(dictionary.search(txtSearch.getText())!=null)
             {
-                LinkedList<Word> listSearch = dictionary.searchKeyWord(txtSearch.getText());
+                Map<String,String> listSearch = dictionary.search(txtSearch.getText());
                 LoadListWord(listSearch);
             }
             else
@@ -381,11 +399,12 @@ public class DictionaryForm extends javax.swing.JFrame {
     }//GEN-LAST:event_txtSearchKeyReleased
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
-        if(dictionary.add(txtSearch.getText(), txtArListWord.getText()))
+        if(dictionary.add(txtAddSpelling.getText(), txtAddExplain.getText()))
             JOptionPane.showMessageDialog(null, "Add success", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
         else
             JOptionPane.showMessageDialog(null, "Add failed", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
         LoadListWord(dictionary.listWord);
+
     }//GEN-LAST:event_btnAddActionPerformed
 
     private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteActionPerformed
@@ -413,13 +432,15 @@ public class DictionaryForm extends javax.swing.JFrame {
         String a = JlstWord.getSelectedValue();
         txtEdit.setText(a);
         txtEdit.setForeground(Color.BLACK);
-        LinkedList<Word> listSearch = dictionary.searchKeyWord(a);
+        Font font = new Font(("Tahoma"),Font.PLAIN,13);
+        txtEdit.setFont(font);
+        Map<String,String> listSearch = dictionary.search(a);
         if(!Internet)
-            for(Word item: listSearch)
+            for(String key:listSearch.keySet())
             {
-                if(item.getSpelling().equals(a))
+                if(key.equals(a))
                 {
-                    txtArListWord.setText(item.getExplain());
+                    txtArListWord.setText(listSearch.get(key));
                     return;
                 }
             }
@@ -431,10 +452,12 @@ public class DictionaryForm extends javax.swing.JFrame {
         //KiemTraInternet();
         if(!Internet)
         {
+            //System.setProperty("mbrola.base", "D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\freetts-1.2.2-bin\\freetts-1.2");
             final String VOICEMAN="kevin16";
             VoiceManager vm=VoiceManager.getInstance();
             Voice v;
-            v = vm.getVoice(VOICEMAN);
+            //v = vm.getVoice("mbrola_us1");
+            v=vm.getVoice(VOICEMAN);
             v.allocate();
             try{
                 if(JlstWord.getSelectedIndex()!=0)
@@ -452,7 +475,7 @@ public class DictionaryForm extends javax.swing.JFrame {
     private void txtSearchKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtSearchKeyPressed
         if(evt.getKeyChar()== KeyEvent.VK_ENTER)
         {
-            LinkedList<Word> listSearch = dictionary.searchKeyWord(txtSearch.getText());
+            Map<String,String> listSearch = dictionary.search(txtSearch.getText());
 
             if (listSearch.isEmpty()) {
                 txtArListWord.setText(dictionary.translateByGoogle(language,txtSearch.getText()));
@@ -498,7 +521,12 @@ public class DictionaryForm extends javax.swing.JFrame {
     }//GEN-LAST:event_RBtnVAActionPerformed
 
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
-         //dictionary.ghiFile();
+        dictionary.ghiFile();
+//        int close = JOptionPane.showConfirmDialog(this, "Bạn có muốn thoát?", "Thoát",JOptionPane.YES_NO_OPTION ,JOptionPane.QUESTION_MESSAGE);
+//        if(close==0)
+//        {
+//            this.setVisible(true);
+//        }
     }//GEN-LAST:event_formWindowClosing
 
     private void txtEditFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtEditFocusGained
@@ -506,6 +534,8 @@ public class DictionaryForm extends javax.swing.JFrame {
         {
             txtEdit.setText("");
             txtEdit.setForeground(Color.BLACK);
+            Font font = new Font(("Tahoma"),Font.PLAIN,13);
+            txtEdit.setFont(font);
         }
     }//GEN-LAST:event_txtEditFocusGained
 
@@ -514,6 +544,8 @@ public class DictionaryForm extends javax.swing.JFrame {
         {
             txtEdit.setText("Edit...");
             txtEdit.setForeground(Color.GRAY);
+            Font font = new Font(("Tahoma"),Font.ITALIC,13);
+            txtEdit.setFont(font);
         }
     }//GEN-LAST:event_txtEditFocusLost
 
@@ -521,6 +553,8 @@ public class DictionaryForm extends javax.swing.JFrame {
         if(txtSearch.getText().equals("Search...")){
             txtSearch.setText("");
             txtSearch.setForeground(Color.BLACK);
+            Font font = new Font(("Tahoma"),Font.PLAIN,13);
+            txtSearch.setFont(font);
         }
     }//GEN-LAST:event_txtSearchFocusGained
 
@@ -529,6 +563,8 @@ public class DictionaryForm extends javax.swing.JFrame {
         {
             txtSearch.setText("Search...");
             txtSearch.setForeground(Color.GRAY);
+            Font font = new Font(("Tahoma"),Font.ITALIC,13);
+            txtSearch.setFont(font);
         }
     }//GEN-LAST:event_txtSearchFocusLost
 
@@ -537,12 +573,50 @@ public class DictionaryForm extends javax.swing.JFrame {
     }//GEN-LAST:event_RBtnOfflineActionPerformed
 
     private void RBtnOnlineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBtnOnlineActionPerformed
-        KiemTraInternet();
+        this.KiemTraInternet();
         if(Internet==false)
         {
             JOptionPane.showMessageDialog(null, "Không có internet", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_RBtnOnlineActionPerformed
+
+    private void txtAddSpellingFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtAddSpellingFocusGained
+        if(txtAddSpelling.getText().equals("Add spelling...")){
+            txtAddSpelling.setText("");
+            txtAddSpelling.setForeground(Color.BLACK);
+            Font font = new Font(("Tahoma"),Font.PLAIN,13);
+            txtAddSpelling.setFont(font);
+        }
+    }//GEN-LAST:event_txtAddSpellingFocusGained
+
+    private void txtAddSpellingFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtAddSpellingFocusLost
+        if(txtAddSpelling.getText().length()==0)
+        {
+            txtAddSpelling.setText("Add spelling...");
+            txtAddSpelling.setForeground(Color.GRAY);
+            Font font = new Font(("Tahoma"),Font.ITALIC,13);
+            txtAddSpelling.setFont(font);
+        }
+    }//GEN-LAST:event_txtAddSpellingFocusLost
+
+    private void txtAddExplainFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtAddExplainFocusGained
+         if(txtAddExplain.getText().equals("Add explain...")){
+            txtAddExplain.setText("");
+            txtAddExplain.setForeground(Color.BLACK);
+            Font font = new Font(("Tahoma"),Font.PLAIN,13);
+            txtAddExplain.setFont(font);
+        }
+    }//GEN-LAST:event_txtAddExplainFocusGained
+
+    private void txtAddExplainFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtAddExplainFocusLost
+        if(txtAddExplain.getText().length()==0)
+        {
+            txtAddExplain.setText("Add explain...");
+            txtAddExplain.setForeground(Color.GRAY);
+            Font font = new Font(("Tahoma"),Font.ITALIC,13);
+            txtAddExplain.setFont(font);
+        }
+    }//GEN-LAST:event_txtAddExplainFocusLost
 
     public static void main(String args[]) {
        
@@ -590,12 +664,15 @@ public class DictionaryForm extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JFrame jFrame1;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextField txtAddExplain;
+    private javax.swing.JTextField txtAddSpelling;
     private javax.swing.JTextArea txtArListWord;
     private javax.swing.JTextField txtEdit;
     private javax.swing.JTextField txtSearch;

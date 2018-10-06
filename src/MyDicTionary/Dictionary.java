@@ -2,16 +2,16 @@ package MyDicTionary;
 
 import com.darkprograms.speech.synthesiser.SynthesiserV2;
 import java.io.*;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.Random;
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.advanced.AdvancedPlayer;
 import com.darkprograms.speech.translator.GoogleTranslate;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
 
 public final class Dictionary {
 
-    LinkedList<Word> listWord=new LinkedList<>();;
+    Map<String,String> listWord=new TreeMap<>();
     final String pathAnhViet = "Anh-Viet.txt";
     final String pathVietAnh ="Viet-Anh.txt";
     final String pathFILE;
@@ -55,7 +55,7 @@ public final class Dictionary {
                 s2 = s1.substring(0, s1.indexOf("\t"));
                 s3 = s1.substring(s1.indexOf("\t") + 1);
                 w = new Word(s2, s3);
-                listWord.add(w);
+                listWord.put(w.getSpelling(), w.getExplain());
             }
             
             buffed.close();
@@ -66,58 +66,51 @@ public final class Dictionary {
         }
     }
 
-    LinkedList<Word> searchKeyWord(String spelling) {
-        LinkedList<Word> listResult = new LinkedList<>();
-        
+    Map<String,String> search(String spelling) {
+        Map<String,String> listResult = new TreeMap<>();
         if(spelling.length()==0)
             return listWord;
-        
-        for (int i = 0; i < listWord.size(); i++) {
-            if (listWord.get(i).getSpelling().indexOf(spelling) == 0) {
-                listResult.add(listWord.get(i));
+        int x=0;
+        for(String key:listWord.keySet())
+        {
+            if(key.indexOf(spelling)==0)
+            {
+                listResult.put(key, listWord.get(key));
+                x=1;
             }
+            else if(x==1)
+                break;
         }
-        if(listResult.size()>0)
-            quickSort(listResult, 0, listResult.size() - 1);
-        
+       
         return listResult;
     }
 
     Boolean add(String spelling, String explain) {
-        Word w = new Word(spelling, explain);
-        for (int i = 0; i < listWord.size(); i++) {
-            if (listWord.get(i).getSpelling().equals(w.getSpelling())) {
-                return false;
-            }
-        }
-        listWord.add(w);
-        ghiFile();
+         Word w = new Word(spelling, explain);
+        if(listWord.containsKey(w.getSpelling()))
+            return false;
+        listWord.put(w.getSpelling(), w.getExplain());
         return true;
     }
 
     Boolean edit(String spellingOld,String spellingNew, String explain) {
-        for (int i = 0; i < listWord.size(); i++) {
-            if (spellingOld.equals(listWord.get(i).getSpelling())) {
-                if(spellingOld.equals(spellingNew) || !contain(listWord,spellingNew))
-                {
-                    Word w=new Word(spellingNew,explain);
-                    listWord.add(i+1, w);
-                    listWord.remove(i);
-                    ghiFile();
-                    return true;
-                }
-            }
-        }
+        try{
+            listWord.remove(spellingOld);
+            listWord.put(spellingNew, explain);
+            return true;
+        }catch(Exception e) {}
         return false;
     }
 
     Boolean delete(String spelling) {
         spelling = spelling.trim();
-        for (Word item : listWord) {
-            if (item.getSpelling().equals(spelling)) {
-                listWord.remove(item);
-                System.out.println(item.getSpelling()+": "+item.getExplain()+"\n");
-                ghiFile();
+        if(!listWord.containsKey(spelling))
+            return false;
+        for(String key:listWord.keySet())
+        {
+            if(key.equals(spelling))
+            {
+                listWord.remove(key);
                 return true;
             }
         }
@@ -146,72 +139,42 @@ public final class Dictionary {
     String translateByGoogle(String language,String spelling)
     {
         String explain = "!!!Không có ý nghĩa!!!";
-        Boolean internet=false;
         try{
             explain = GoogleTranslate.translate(language, spelling);
-            internet=true;
         }catch(IOException e){}
         return explain;
     }
     
-    void printList(LinkedList<Word> list) {
+    void printList(Map<String,String> list) {
 //        CreatList(); 
-        for (int i = 0; i < list.size(); i++) {
-            System.out.print(list.get(i).getSpelling()+ ": " + list.get(i).getExplain() + "\n");
+        Set<String> keySet= list.keySet();
+        for(String key:keySet)
+        {
+            System.out.print(key);
+            for(int i=0;i<45-key.length();i++)
+                System.out.print(" ");
+            System.out.print(list.get(key)+"\n");
         }
     }
     
-    void ghiFile() {
+     void ghiFile() {
         //QuickSort(listWord, 0, listWord.size());
+        Map<String,String> map = new TreeMap<>();
         try {
             File f = new File(pathFILE);
             try (FileWriter fw = new FileWriter(f)) {
-                for (Word item : listWord) {
-                    String spelling_ = item.getSpelling() + "\t";
-                    fw.write(spelling_);
-                    String explain_ = item.getExplain() + "\n";
-                    fw.write(explain_);
+                for (String key:listWord.keySet()) {
+                    if(!map.containsKey(key))
+                    {
+                        map.put(key, listWord.get(key));
+                        String spelling_ = key + "\t";
+                        fw.write(spelling_);
+                        String explain_ = listWord.get(key) + "\n";
+                        fw.write(explain_);
+                    }
                 }
             }
         } catch (IOException ex) {
         }
-    }
-
-    public void quickSort(LinkedList<Word> lstWord, int l, int r) {
-        Random rd = new Random();
-        int c = rd.nextInt(r - l + 1);
-        Word key = lstWord.get(l + c);
-        int i = l, j = r;
-        while (i <= j) {
-            while (lstWord.get(i).getSpelling().compareTo(key.getSpelling()) < 0) {
-                i++;
-            }
-            while (lstWord.get(j).getSpelling().compareTo(key.getSpelling()) > 0) {
-                j--;
-            }
-            if (i <= j) {
-                if (i < j) {
-                    Collections.swap(lstWord, i, j);
-                }
-                i++;
-                j--;
-            }
-            if (l < j) {
-                quickSort(lstWord, l, j);
-            }
-            if (i < r) {
-                quickSort(lstWord, i, r);
-            }
-        }
-    }
-    
-    public boolean contain(LinkedList<Word> listword,String spelling)
-    {
-        for(Word item:listword)
-        {
-            if(item.getSpelling().equals(spelling))
-                return true;
-        }
-        return false;
-    }
+     }
 }

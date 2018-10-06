@@ -1,11 +1,13 @@
-anyone	ai muốn làm cũng ok
-anyone can do	ai cũng có thể làm được
-anytime	Bao giờ cũng được)
+anyone	bất kỳ ai; 
+anyone (who wants to) can do it	ai muốn làm cũng ok
+anyone can do	ai làm cũng được
+anytime (is fine)	bao giờ cũng ok
 apartheid	a pác thai
-apartment building	chung cư.
+apartment building	bin đinh
 apatite	a pa tít
+apologize; defense (legal)	biện hộ
 apparent	biểu diện
-approximately	xấp xỉ;
+approximately	ang áng
 apéritif	a pê ri típ
 arab block	Khối Ả Rập
 araucaria	bách tán
@@ -27,15 +29,14 @@ arts and crafts	bách nghệ
 as if one’s life depended on it	bán sống bán chất
 asbestos	a mi ăng
 asia	Châu Á
-asia minor	Tiểu Á Tế Á
 asia minor	Tiểu Á
 asian continent	Châu Á
 asian-american	Mỹ vàng
 assist	bang trợ
 assistant district chief	bang biện
-astonishingly	đáng ngạc nhiên
-at first	lúc đầu
-at midday	lúc giữa trưa
+astonishingly	ai dè
+at first	ban đầu
+at midday	buổi trưa
 at night	ban đêm
 at night-time	buổi tối
 at the beginning	ban đầu
@@ -50,7 +51,6 @@ aunt	bác gái
 authoritarian	bá đạo
 avaricious	bon chen
 avoid	bán mặt
-award	ban
 award	ban tặng
 azure	biếc
 babble	bi ba bi bô
@@ -79,7 +79,7 @@ barrel	ba ren
 barrier	ba ri e
 barter	bán đổ bán tháo
 basalt	ba zan
-base	căn cứ
+base	bazơ
 base plate	bàn đế
 bat a thousand	bách phát bách trúng
 bathroom	buồng tắm
@@ -112,11 +112,12 @@ benzol	ben zen
 besiege	bao vây
 best selling	bán chạy nhất
 bestow	ban tặng
+bestow; (4) ball; (5) fever	ban
 betray one’s country	bán nước
 bevel pinion	bánh khía hình nón
 bilateral meeting	buổi họp song phương
 billiards	bi di
-bimonthly	hai tháng một lần
+bimonthly	bán nguyệt san
 biscuit	bánh quy
 bisexual	bán nam bán nữ
 biting	buốt
@@ -124,7 +125,6 @@ biweekly publication	bán guyệt san
 black american	Mỹ đen
 black flag (rebels)	Cờ Đen
 black glutinous rice cake	bánh gai
-bladder	bàng quang
 bladder	bong bóng
 bleat (of a goat)	be be
 blockade	bao vây
@@ -139,10 +139,6 @@ bomb explosion	bom nổ
 book in sanskrit	Phạn thư
 book of prophesy (c. 1670)	Sấm Truyền Ca
 book on military tactics	binh thư
-border	biên cương
-border	biên đình
-border	biên
-border	biên thùy
 border	biên giới
 border guard	biên phòng
 border region	biên cảnh
@@ -158,7 +154,6 @@ bower	buồng khuê
 box of matches	bao diêm
 brake (pedal)	bàn đạp thắng chân
 brave	anh dũng
-bread	bánh mì
 bread	bánh
 bread and butter	bánh mì phết bơ
 bread spread with butter	bánh mì phết bơ
@@ -175,18 +170,14 @@ brother in law (wife’s older brother)	anh vợ
 brother-in-law (husband of one’s elder sister)	anh rể
 brothers	anh em
 brothers and friends everywhere	anh em bầu bạn xa gần
-brothers and sisters	anh em
 brothers and sisters	anh em chị em
-brothers by the same mother	anh em đồng bào
 brothers by the same mother	bào huynh
 brothers in law	anh em cột chèo
 brown american	Mỹ nâu
 bruce lee	Lý Tiểu Long
 brush	bàn chải
-bubble	bào ảnh
 bubble	bong bóng
 bucket	ben
-buddha	Bụt
 buddha	Phật
 buddhism	Phật Giáo
 buddhist (person)	Phật Tử
@@ -220,13 +211,8 @@ cake made of sweet potato meal (mixed with rice flour)	bánh khoai
 calamity; (4) to spread	biến
 california	Cali
 call on	bái kiến
-calm	an hảo
 calm	an lòng
-cambodia	Căm Bốt
-cambodia	Cao Miên
-cambodia	Cam Bốt
 cambodia	Cao Mên
-cambodian	Cao Mên
 cambodian	Cao Miên
 cambodian; (2) to sleep; (3) cotton; (4) to be long	Miên
 cambodia’s future is still very unstable	Tương lai Cam Bốt còn nhiều bấp bênh
@@ -241,7 +227,6 @@ cao dai (vietnamese religion)	Cao Đài Giáo
 cao dai pope	Hộ Pháp Cao Đài
 cape of good hope	Mũi Hảo Vọng
 capitulum	buồng hoa
-car bomb	bom xe
 car bomb	bom xe hơi
 careless	ba toác
 careless and fast	ba chớp ba nhoáng
@@ -260,7 +245,6 @@ central america	Trung Mỹ
 central asia	Trung Á
 central bank	Ngân Hàng Trung Ương
 central europe	Trung Âu
-central vietnam	Miền Trung
 central vietnam	Trung Việt Nam
 cerebral hemisphere	bán cầu não
 ceremony	buổi lễ
@@ -268,12 +252,10 @@ chamber	buồng
 chamber (of a gun)	buồng đạn
 champa	Chiêm Thành
 chancellor (cao dai)	Chưởng Ấn
-change	biến cách
 change	biến ảo
 change into	biến thành
 change jobs	bay nhẩy
 charge	buộc tội
-chart	biểu đồ
 chart	biểu
 chaudoc	Châu Đốc
 checkerboard	bàn cờ
@@ -286,23 +268,17 @@ chessboard	bàn cờ
 chicken coop	bu gà
 chieftain	anh chị
 child	anh nhỉ
-china	Trung Hoa
 china	Trung Quốc
 china lost to japan	Trung Quốc thua Nhật Bản
 china shares a border with 14 countries	Trung Quốc chung biên cương với 14 quóc gia
-chinese	Trung Hoa
 chinese	Hán
 chinese (language)	Hoa Ngữ
 chinese character	Hán tụ
 chinese communists	Trung Cộng
 chinese press agency	Tân Hoa Xã
 choppy sea	biển sôi động
-christ	Cơ Đốc
-christ	Ki Ri Xi Tô
 christ	Ki Tô
 christian	Cơ Đốc
-christianity	Cơ Đốc
-christianity	Cơ Đốc giáo
 christianity	Ki Tô Giáo
 christopher columbus	Kha Luân Bố
 chromatic scale	bán âm giai
@@ -313,14 +289,12 @@ clarify	biện minh
 classroom	buồng học
 cleaning brush	bàn chải thông nòng
 clear-sighted and able	anh minh
-cling	bám víu
 cling	bám
 cling to	bám giữ
 close (sibling-like) friend	anh em bạn
 close by	bàng tiếp
 close or intimate friend; to flatter	a mi
 clothes brush	bàn chải quần áo
-clutch	bám
 clutch	bám víu
 coast guard	Lực lượng Tuần duyên
 coat	bành tô
@@ -336,29 +310,20 @@ comfortable	an lòng
 command	binh đoàn
 commando	biệt kích
 comment humorously or excitedly	bàn tán
-commentary	bài vở
 commentary	bài vợ bình luận
-commerce	buôn bán
 commerce	Bộ Trưởng Thương Mại
 commission	ban
-committee	ban kế hoạch
 committee	ban
-communist china	Trung Hoa Cộng Sản
 communist china	Trung Cộng
-communist vietnam	Cộng Sản Việt Nam
 communist vietnam	Việt Nam Cộng Sản
-communist vietnamese	Việt cộng
 communist vietnamese	Việt Cộng
 compatriot	anh em đồng bào
-compel	buộc
 compel	bách
 compelled (to do something); against one’s will	buộc lòng
 compile; (4) edge	biên
 compile; compilation	biên dịch
 complicate matters	bày trò
-composition	bài luận
 composition	bài văn
-comprise	bao hàm
 comprise	bao gồm
 comrades	anh em
 con-son (island)	Côn Sơn
@@ -370,20 +335,14 @@ conditional sale	bán đợ
 confectionary	bánh kẹo
 conference table	bàn hội nghị
 confucian	Khổng
-confucian scholar	Nho gia
 confucian scholar	Nho giả
 confucian scholars (collective)	Nho lâm
-confucianism	Nho Giáo
-confucianism	Khổng giáo
-confucianism	Nho học
 confucianism	Nho đạo
-confucius	Khổng Tử
 confucius	Khổng
 confused	bàng hoàng
 congratulate	ban khen
 consecrate one’s baby to god	bán khoán
 consecrated bread	bánh thánh
-console	an ủi
 console	bàn điều khiển
 constitutional court	Viện Bảo Hiến
 container	ang
@@ -407,7 +366,6 @@ corsair	Tàu ô
 cost	biểu phí
 count	bá tước
 counterpart	bày vai
-country	bang gia
 country	bang
 couple	biền
 couplet	biền ngẫu
@@ -417,7 +375,6 @@ court officials	bá quan
 courthouse	biệt thự
 cousin	anh họ
 cousins	anh em họ
-cover	bao bọc
 cover	bao hàm
 covering; to envelope	bao bọc
 crab	bay chếch ngang
@@ -450,9 +407,6 @@ dazed	bàng hoàng
 dazzled	bàng hoàng
 deal	buôn
 death notice	ai tín
-debate	bàn cãi
-debate	biện
-debate	bàn
 debate	biện bác
 decide by discussion	bàn định
 deck	boong tàu
@@ -463,9 +417,6 @@ definitive sale	bán đoạn mại
 deform	biến dạng
 dejected	buồn tủi
 delayed action bomb	bom nổ chậm
-deliberate	bàn bạc
-deliberate	bàn
-deliberate	bài cãi
 deliberate	bàn luận
 demi-	bán
 demonstrate	biểu lộ
@@ -475,10 +426,8 @@ department	ban
 department of defense	Bộ Quốc Phòng
 department of energy	Bộ Trưởng Năng Lượng
 depressed	buồn phiền
-desk	bàn giấy
 desk	bàn học
 despondent	buồn teo
-detach	bong
 detach	biệt phái
 detached retina	bong võng mạc
 detachment	biệt đội
@@ -500,10 +449,6 @@ discern	biện biết
 discomfort	buợc bội
 discourse	biện thuyết
 discriminate	biện biết
-discuss	biện
-discuss	bàn bạc
-discuss	bàn tính
-discuss	biện luận
 discuss	biện bác
 discuss and organize	bàn soạn
 disgrace	bán danh
@@ -512,11 +457,7 @@ dismal	buồn thảm
 disorganized	ba lăng nhăng
 dispense	ban phát
 displacement	bài thủy lượng
-displacement tonnage	bài thủy lượng nặng
 displacement tonnage	bài thủy lượng nhẹ
-display	biểu
-display	bày hàng
-display	an bài
 display	biểu diễn
 display; (7) means	bài
 dispose	bài liệt
@@ -554,7 +495,6 @@ during the day	ban ngày
 during the night	ban đêm
 duty	bàn giao chức vụ
 earl	bá tước
-early morning	ban sớm
 early morning	ban mai
 ease	an ủi
 easter	Lễ Phục Sinh
@@ -564,11 +504,9 @@ economic court	Tòa Kinh Tế
 economic mean	biện pháp kinh tế
 edit	biên soạn
 editor	biên tập viên
-editorial	bài vợ bình luận
 editorial	bài xã luận
 eec	Cộng Đồng Kinh Tế Âu Châu
 eject; defecation	bài tiết
-elder brother	bào huynh
 elder brother	anh
 elder brother (by blood)	anh ruột
 eldest brother	anh cả
@@ -577,43 +515,32 @@ electricity regulatory authority of vietnam (erav)	Cục Điều tiết điện 
 elegance	anh hoa
 elegant and clever	anh tú
 elegant furniture	bàn nghế nhã
-elegy	ai ca
 elegy	bi ca
 elephant’s ear-shaped flat cake	bánh tai voi
 elevation	biể xích
-eliminate	bài xuất
 eliminate	bài trừ
 elite soldier	binh sĩ tinh nhuệ
 elite troops	binh sĩ tinh nhuệ
 emblem	biểu tượng
-embrace	bá cổ
-embrace	bao gồm
-embrace	bao trùm
 embrace	bao quát
 eminent	anh tuấn
 empathize with; (3) dust	ai
 enclose	bao
 encode	biến chữ
 encompass	bao quanh
-encyclopedia	bách khoa toàn thư
-encyclopedia	bách khoa thư
 encyclopedia	bách khoa từ điển
 encyclopedic	bách khoa
 engine-room	buồng máy
 english literature	anh văn
 enlightened or wise king	anh quân
-envelope	bao bọc
-envelope	bao phủ
 envelope	bao thơ
 epic	anh hùng ca
 epidermis	biểu bì
 epigraphy	bi ký học
-epitaph	bi chí
 epitaph	bi văn
 equal	bày vai
 erudite	bác học
 erythema	ban đỏ
-essay	bài văn
 essay	bài luận
 etc.)	ban hành
 etc.); (2) sickle	a
@@ -623,26 +550,16 @@ europe	Châu Âu
 european community	Cộng Đồng (Chung) Âu Châu
 european continent	Châu Âu
 european economic community	Cộng Đồng Kinh Tế Âu Châu
-european union	Liên Hiệp Âu Châu
 european union	Khối Cộng Đồng Chung Âu châu
 evening	buổi tối
-event	biến động
 event	biến cố
 event; half a day	buổi
 events]; session	buổi
 ever	bao nhiêu
 every time	bao giờ
 every two weeks	bán nguyệt san
-everybody	ai ai
 everybody	ai cũng
 everybody likes him	ai cũng ưa nó
-everyone	ai cũng
-everyone	ai ai cũng
-everyone	ai nấy đều
-everyone	ai ai cũng đều
-everyone	ai
-everyone	ai ai
-everyone	anh chị em
 everyone	ai nấy
 everyone has to	ai cũng phải
 everyone is going	ai cũng đi hết
@@ -658,12 +575,10 @@ exchange views on	bàn bạc
 excretion	bài tiết
 executive board	ban chấp hành
 executive committee	ban chấp hành
-exercise	bài làm
 exercise	bài tập
 exhibit	bày
 exile	an trí
 exile; banishment	an trí
-exiled	biệt sứ
 exiled	biệt xứ
 expand	bành trướng
 expel	bài tiết
@@ -679,9 +594,7 @@ fade	bay màu
 fairy (woman)	bà tiên
 falling down	buông lơi
 falun gong	Pháp Luân Công
-father and mother	ba má
 father and mother	bác mẹ
-father superior	Cha Bề Trên
 father superior	Cha bề trên
 father’s elder brother	bá phụ
 father’s older brother; (2) wise	bác
@@ -718,9 +631,7 @@ fine rice vermicelli	bánh hỏi
 finland	Phần Lan
 fire bomb	bom cháy
 firm	an định
-first cousin (son of parent’s older sibling)	anh
 first cousin (son of parent’s older sibling)	anh con nhà bác
-first cousins	an em chú bác
 first cousins	anh em chú bác
 fish pond	ao cá
 fishpond	ao nuôi cá
@@ -732,7 +643,6 @@ flit about	bay nhởn nhơ
 floating cake	bánh trôi
 flowery	bay bướm
 fluctuate	biến đổi
-fluid flywheel	bánh trớn dầu
 fluid flywheel	bánh treo dầu
 fly across	bay qua
 fly off	bay lên
@@ -741,9 +651,7 @@ flywheel	bánh trớn
 folk song	bài ca dao
 follow	a dua
 food and drug administration	Cục Quản Trị Lương Thực và Dược Phẩm
-foot	bàn chân
 foot	bàm chân
-football	banh
 football	ba lông
 for one’s life	bán sống bán chất
 forced	buộc lòng
@@ -758,7 +666,6 @@ formal relations	bang giao chính thức
 former vietnam	Việt Nam ngày xưa
 franchise	bán quyền
 fraudulent	biển lận
-free	biếu không
 free	buông thả
 french	Tây
 french (language)	Pháp ngữ
@@ -767,15 +674,13 @@ from the beginning	ban đầu
 front wheel	bánh trước
 front wheel drive	bánh trước phát động
 frontal security	an toàn mặt trước
-frontier	biên đình
-frontier	biên giới
-frontier	biên cương
 frontier	biên thùy
 frontier area	biên cảnh
 frontier guard	biên phòng
 frontier pass	biên ải
 frowning	bàu bạu
 fruits and cakes	bánh trái
+fuck	khốn nạn
 fuji	Phú Sĩ
 fukien	Phúc Kiến
 full	anh ách
@@ -802,14 +707,10 @@ give as a new year’s gift	bán mở hàng cho ai
 giá trị gia tăng (value added tax	GTGT
 giám quản	GM
 giám đốc (director)	GĐ
-gleaming	anh ách ánh
 gleaming	anh ánh
 glibly	bai bải
-glide	bay liệng
-glide	bay lượn
 glide	bán mẫu âm
 glimmering	anh ánh
-glistening	anh ánh
 glistening	anh ách ánh
 global petroleum commercial bank	Ngân hàng TMCP dầu khí toàn cầu
 global times (a chinese daily newspaper)	Hoàn Cầu Thời Báo
@@ -822,7 +723,6 @@ glutinous rice cake	bánh nếp
 glutinous rice chupatty	bánh phồng
 glutinous rice chupatty mixed with powdered shrimp	bánh phồng tôm
 glutinous rice doughnut	bánh rán
-glutinous rice dumpling	bánh chay
 glutinous rice dumpling	bánh giầy
 go ahead!	a lê
 go away	biến mất
@@ -833,7 +733,6 @@ god	Thượng Đế
 goddess of anger	La Sát
 good	anh em bạn
 goodbye	Tạm biệt
-government clerk	bang biện
 government clerk	bang tá
 grab	ben
 grandmother	bà cố nội
@@ -844,15 +743,12 @@ graph	biểu đồ
 grateful	biết ơn
 graze	Ma Cao
 greater path buddhism	Phật Giáo đại thừa
-greece	Hi Lạp
 greece	Hy Lạp
-greek	Hi Lạp
 greek	Hy Lạp
 green	biếc
 green rice cake	bánh cốm
 green-colored pastry	bánh mảnh cộng
 greet	bái chào
-grief and joy	bi hoan
 grief and joy	ai lạc
 ground fault coefficient	Hệ số sự cố chạm đất
 growl	bàu nhàu
@@ -896,8 +792,6 @@ having piece of mind	an tâm
 hawaii	Hạ Uy Di
 hawaiian guitar	Hạ uy cầm
 hawk	bán rong
-he	anh ấy
-he	anh ta
 he	anh chàng
 he always dresses elegantly	anh ta bao giờ cũng ăn mặt nền nã
 he doesn’t have a temperature	Nó không sốt
@@ -916,6 +810,7 @@ hecatomb	bách sinh
 hedge hopping	bay là là gần đất
 hegemony	bá quyền
 helical gear	bánh khía hình soắn ốc
+hello	xin chao
 help	bang trợ
 hematosis	biến huyết sác
 hemi-	bán
@@ -927,7 +822,6 @@ her	bà ta
 herbarium	bách thảo tập
 here lies ~ (on a gravestone)	Nơi đây an nghĩ
 hermitage	am
-hero	anh kiệt
 hero	anh hào
 hero of labor	anh hùng lao động
 hero; heroic	anh hùng
@@ -946,25 +840,19 @@ hispanic-american	Mỹ nâu
 historian (cao dai)	Thừa Sử
 historic event	biến cố lịch sử
 hitler	Hítle
-ho chi minh city (saigon)	Thành Phố Hồ Chí Minh
 ho chi minh city (saigon)	Thành Hồ
 hold on (a second)!	Khoan đã!
 hold on to (a military position)	bám trụ
-holland	Hà Lan
 holland	Hòa Lan
 holy bread	bánh thánh
 holy day	an nhật
-homework	bài vở
 homework	bài tập
 homework (assignment)	bài làm
-hong kong	Hương Cảng
-hong kong	Hồng Công
 hong kong	Hồng Kông
 honorific title	bá hộ
 host	bánh thánh
 house of peers	Hội đồng Quý Tộc
 house of representatives	Hạ Viện
-hover	bay liệng
 hover	bay lượn
 how about going to the thanh the (restaurant)?	Lại nhà hàng Thanh Thế đi !
 how about you?	Còn ông thì sao?
@@ -980,7 +868,6 @@ how much	bao nhiêu
 how much?	bao nả
 how so?	Sao vậy?
 how unfortunate!	Khổ chưa!
-howdah	bành voi
 howdah	bành tượng
 however long	bao lâu
 however many	bao nhiêu
@@ -997,37 +884,27 @@ i haven’t seen you in a long time	Lâu rồi không gặp anh
 i knew it (right away)	biết ngay mà
 i will	anh sẽ
 iaea	Cơ quan nguyên tử năng quốc tế
-idle	ba lăng nhăng
 idle	biếng nhác
 idler wheel	bánh truyền xích
 idol	bái vật
 idolatry	bái thần giáo
 iea	Cơ quan năng lượng quốc tế
 ill-mannered	ba toác
-illusion	biến ảo
 illusion	bào ảnh
 imf	Quỹ Tiền Tệ Quốc Tế
-imitate	a dua
 imitate	a tòng
 immense	bao la
 important event	biến cố quan trọng
 in announcements)	a lô
 in broad daylight	ban ngày ban mặt
 in one’s seat	an vị
-in one’s seat	an vị
 in place	an vị
 in the afternoon	ban chiều
 in the daytime	ban ngày
 in the evening	ban tối
 in the evening-night	buổi tối
-in the morning	ban sáng
 in the morning	buổi sáng
-incendiary bomb	bom lửa
 incendiary bomb	bom cháy
-include	bao phủ
-include	bao quát
-include	bao trùm
-include	bao hàm
 include	bao gồm
 incombank	Ngân Hàng Thương Mại Quốc Tế
 incriminate	buộc tội
@@ -1050,7 +927,6 @@ infringe	bá chiếm
 initially; initial	ban đầu
 inner mongolia	Nội Mông
 instructor (cao dai)	Tiếp Dẫn Đạo Nhơn
-instrument flying	bay không thấy phía trước
 instrument flying	bay nhờ khí cụ
 insurrection	biến động
 intelligent and handsome	anh tuấn
@@ -1066,11 +942,9 @@ inverted flying	bay đảo ngược
 investigative committee	ban điều tra
 investigator (cao dai)	Truyền Trạng
 iraq	I Rắc
-iron (for clothes)	bàn là
 iron (for clothes)	bàn ủi
 iron curtain	Bức Màn Sắt
 irregular	buổi đực buổi cái
-islam	Hồi
 islam	Hồi Giáo
 islamic	Hồi
 iso	Tổ Chức Tiêu Chuẩn Quốc Tế
@@ -1080,11 +954,8 @@ israel	Do Thái
 it’s me	anh đây
 ivory symbol of office (of a mandarin)	bài ngà
 jacket	bành tô
-japan	Nhật
-japan	Nhật Bản
 japan	Nhựt
 japan (literary)	Phù Tang
-japanese	Nhật Bản
 japanese	Nhật
 japanese emperor	Nhật Hoàng
 japanese industry standard (jis)	Tiêu Chuẩn Kỹ Nghệ Nhật Bản
@@ -1092,14 +963,12 @@ japanese language or literature	Hòa văn
 japanese studies	Hòa học
 jelly (glue) made from antlers; megalossaur	ban long
 jerusalem	Yêrusalem
-jesus	Giê Su
 jesus	Yêsu
 jesus christ	Yêsu Kitô
 john	Gioan
 judaism	Do Thái giáo
 jupiter	Mộc
 just a little while ago	ban nẫy
-just now	ban nẫy
 just now	ban nãy
 justice minister	Bộ Trưởng Tư Pháp
 justify	biện minh
@@ -1128,8 +997,6 @@ know what one did wrong	biết lỗi
 knowing that	biết được điều đó
 knowledge representation	biểu diễn tri thức
 knowledgeable in	am thục
-korea	Triều Tiên
-korea	Cao Ly
 korea	Hàn Quốc
 krakow	Cracốp
 kremlin	Kremli
@@ -1147,7 +1014,6 @@ lathe	bàn tiện
 latin	La Tinh
 latino-american	Mỹ nâu
 lawyer (cao dai)	Cải Trạng
-lazy	biếng nhác
 lazy	biếng
 leadership council	ban chỉ đạo
 leaflet bomb	bom truyền đơn
@@ -1158,8 +1024,6 @@ leisurely	an nhàn
 lenin	Lê Nin
 leo	Hải sư
 lesser path buddhism	Phật Giáo tiểu thừa
-lesson	bài học
-lesson	bài vở
 lesson	bài
 let go	buông thả
 let out	bung ra
@@ -1224,7 +1088,6 @@ management	ban giám đốc
 manchuria	Mãn Châu
 mandarin chinese (language)	Quan thoại
 maneuvering flight	bay thao dượt
-manifest	biểu dương
 manifest	biểu
 manifest; revelation	biểu hiện
 manila	Ma Ní
@@ -1232,7 +1095,6 @@ manor	biệt thự
 many	bao
 many diseases	bá bệnh
 many schemes	bách kế
-many trades	bách công
 many trades	bách nghệ
 many; (2) father’s older sibling; (3) to sow	bá
 mao tse tung	Mao Trạch Đông
@@ -1240,7 +1102,6 @@ mare (lunar sea); (2) placard	biển
 marijuana	anh túc
 mars	Hỏa Tinh
 martial; war	binh đao
-marxist-leninist	Mác Lê
 marxist-leninist	Mác Lê Nin
 master	bá chủ
 matchmaker	bà mối
@@ -1250,16 +1111,12 @@ meal	buổi cơm
 meaningless	ba lăng nhăng
 means	biện pháp
 measles	ban đỏ
-measure	biện pháp kinh tế
 measure	biện pháp
 measures	biện pháp cần thiết
 medal of honor	Danh Dự Bội Tinh
 medical doctor	bác sĩ
 meditation hall (cao dai)	Trí Huệ Cung
-medium	bà bóng
-medium	bà cốt
 medium	bà đồng
-meeting	buổi họp
 meeting	buổi họp mặt
 meiji (emperor of japan)	Minh Trị
 meiji restoration	Minh Trị Phục Hưng
@@ -1269,11 +1126,9 @@ mencius	Mạnh Tử
 merchant	buôn thúng bán mẹt
 messed up	ba rọi
 metabolism	biến dưỡng
-metamorphosis	biến ảo
 metamorphosis	biến hình
 metaphase	biến kỳ
 meter	biểu
-method	bài
 method	biện pháp
 mexico	Mễ Tây Cơ
 mid-autumn festival pie	bánh trung thu
@@ -1283,12 +1138,11 @@ middle east	Trung Đông
 middle east region	Miền Trung đông
 middleman; to act as a middleman or go-between	buôn nước bọt
 midnight	bán dạ
-midwife	bà mụ
 midwife	bà đỡ
 mikado	Thiên Hoàng
 military	binh đao
-military affairs	vấn đề quân sự
-military career	Sự nghiệp quân sự
+military affairs	binh bị
+military career	binh nghiệp
 military doctrine	binh thuyết
 military expenditures	binh phí
 military man	binh gia
@@ -1310,7 +1164,6 @@ ministry of agriculture	Bộ Nông Nghiệp
 ministry of defense	Bộ Trưởng Quốc Phòng
 ministry of domestic affairs	Bộ Nội Vụ
 ministry of education and youth	Bộ Văn Hóa Giáo Dục và Thanh Niên
-ministry of finance	Bộ Tài Chánh
 ministry of finance	Bộ Tài Chính
 ministry of information	Bộ Thông Tin
 ministry of justice justice department	Bộ Tư Pháp
@@ -1323,7 +1176,6 @@ misappropriate public funds	biển thủ công quỹ
 miscellaneous	bác tạp
 misfortune	ba đào
 mitigate	an ủi
-mixed up	ba rọi
 mixed up	bác tạp
 mizzen (sail)	buồm câu
 mizzen-sail	buồm lái
@@ -1338,14 +1190,10 @@ mongolia	Mông Cổ
 moon cake	bánh trung thu
 morning	buổi sáng
 morphine	a phiến trắng
-moscow	Matxcova
 moscow	Mạc Tư Khoa
-mother	bà mẹ
 mother	bà bô
 mother in law	bà nhạc
 mother-in-law	bà gia
-mournful	bi thương
-mournful	bi sầu
 mournful	bi thảm
 mournful remembrance	ai hoài
 moving	bi cảm
@@ -1374,7 +1222,6 @@ near east	Cận Động
 necessary means	biện pháp cần thiết
 negative	bi quan
 neighbor	bàng tiếp
-neighboring	bàng (1) terminalia, a shade tree; (2)
 neighboring	bàng tiếp
 neptune	Hải vương tinh
 new delphi	Tân Đề Li
@@ -1383,7 +1230,6 @@ new testament	Tân Ước
 new year’s rice cake	bánh chưng
 new york	Nữu Ước
 new zealand	Tân Tây Lan
-newspaper article	bài viết
 newspaper article	bài báo
 newspaper articles]; (5) mandarin symbol of office; (6) to arrange	bài
 next	bàng tiếp
@@ -1393,7 +1239,6 @@ nickname	biệt hiệu
 nine sphere palace (cao dai)	Cửu Trùng Đài
 no one asked us	Không ai hỏi chúng tôi hết
 no one came at all	Không ai đến dốt cả
-noah	Nô Ê
 noah	Nhữ Y
 noise of gongs	beng beng
 nom (old vietnamese writing system based on chinese characters)	Nôm
@@ -1418,34 +1263,25 @@ nullify	bác bỏ
 obituary	ai tín
 oblige; to tie up	buộc
 observer	bàng quan
-occident	Tây Âu
 occident	Tây phương
 occidental	Tây
 occupational safety	an toàn lao động
 occupations	bách nghệ
-occurrence	biến cố
 occurrence	biến cố quan trọng
 ocean	biển cả
 oceanus	biển cả
-office	buồng giấy
 office	bàn giấy
 office furniture	bàn ghế văn phòng
-officialdom	bách quan
 officialdom	an liêu
 ogress	bà chằng
 oh	Cha, mắc quá
-old lady	bà lão
-old lady	bà cụ
 old lady	bà già
 old name for vietnam	Lạc Vịet
 old testament	Cựu Ước
-old woman	bà cụ
-old woman	bà già
 old woman	bà lão
 older brother	bào huynh
 oldest brother	anh cả
 one earns a lot of extra money in that position	Làm chỗ ấy bở lắm
-one’s father	bà dì
 one’s father	bà cô
 one’s predicament	biết thân
 one’s status	biết thân
@@ -1469,18 +1305,14 @@ outset	ban sơ
 outside pin	bay soắn đảo ngược
 outstanding man	anh kiệt
 outstanding talent	anh tài
-ovary	buồng trứng
 ovary	bào tử
-overcoat	ba đờ xuy
 overcoat	bành tô
 overseas vietnamese	Việt kiều
 pack	bao
 pack of cigarettes	bao thuốc lá
 package of cigarettes	bao thuốc
-packaging	bao bì
 packaging	bao gói
 pagoda	am tự
-painful	bi thảm
 painful	bi khổ
 pakistan	Hồi Quốc
 palace	biệt điện
@@ -1492,13 +1324,11 @@ panther; scraggy; to pinch	beo
 paper bag	bao giấy
 paper target	bia giấy
 papery thin water	bánh sữa
-parallel constructions	biền thể
 parallel constructions	biền ngẫu
 parallel sentences	biền ngẫu
 paramilitary	bán quân sự
 paraphrase	biến cú
 parent-teacher association	Hội phụ huynh học sinh
-parents	bác mẹ
 parents	ba xuân
 parent’s cousin	bác họ
 parent’s older brother	bác ruột
@@ -1511,21 +1341,16 @@ pastry; (2) wheel	bánh
 patella	bánh chè
 paternal grandmother	bà nội
 paternal grandmotherbà phước	sister (religious title): bà nội
-pathetic	bi thương
 pathetic	bi tráng
 patrol	ba tui
 paul (paulo)	Phao Lồi
-peace	an tâm
-peace	an ninh
 peace	an hảo
 peace and comfort or contentment	an lạc
-peaceful	an hảo
 peaceful	an tịnh
 peaceful demonstration	biểu tình bất bạo động
 peaceful life; tranquil	an hảo
 pearl harbor	Trân Châu Cảng
 pedal	bàn đạp
-peddler	bán rong
 peddler	bán dạo
 pediatrician	bác sĩ nhi
 pellet; (3) sad	bi
@@ -1538,7 +1363,6 @@ people’s army (a newspaper)	Tờ Quân Đội Nhân Dân
 percentage	bách phân suất
 perform	biểu diễn
 perhaps	biết đâu
-perianth	bao nhụy
 perianth	bao hoa
 pericardium	bao tâm
 period	biến tướng
@@ -1551,7 +1375,6 @@ pessimistic	bi quan
 pete peterson	Pete Peterson thuộc đảng Dân Chủ
 petition	biểu chương
 pharmaceutics	bào chế học
-pharmacy	bào chế
 pharmacy	bào chế học
 phase	biến tướng
 phenom penh	Nam Vang
@@ -1561,10 +1384,8 @@ philology	bác ngữ học
 physical security	an ninh thực thể
 phó giám đốc	P.GĐ
 phó phòng	PP
-pie	bánh nướng
 pie	bánh
 pigskin’s cake	bánh da lợn
-pinion	bánh răng cưa
 pinion	bánh khía
 pistol holster	bao súng lục
 place	bài liệt
@@ -1593,7 +1414,6 @@ polytechnical	bách khoa
 pond (in the fields)	bàu
 pond and pool	ao chuôm
 ponds and lakes	ao hồ
-pool	bi di
 pool	bàu
 pope (cao dai)	Giáo Tông
 poppy	anh túc
@@ -1617,7 +1437,6 @@ private (as opposed to publicly funded)	bán công
 private (military rank) (e1)	binh nhì
 private (military rank) (e2)	binh nhất
 problem	bài toán
-procedure	bài
 procedure	biện pháp
 process	biến chế
 proclaim	bá cáo
@@ -1626,14 +1445,10 @@ product safety	an toàn sản phẩm
 promulgate (laws	ban bố
 propaganda with troops	binh vân
 prosecutor	biện lý
-prosecutor’s office	biện l‎ý cuộc
 prosecutor’s office	biện lý cuộc
-prostitution	mại dâm;
-protect	bao che
-protect	bao bọc
+prostitution; to prostitute oneself	bán dâm
 protect	bang
 provide (with)	ban cấp
-pseudonym	biểu tự
 pseudonym	biệt hiệu
 pta	Hội phụ huynh học sinh
 public opinion	bia miệng
@@ -1648,8 +1463,6 @@ quarterdeck	boong sĩ quan
 quartermaster’s corps	binh lương
 queasy	buồn mửa
 questionable	bán tín bán nghi
-quiet	an thân
-quiet	an tĩnh
 quiet	an tịnh
 quintessence	anh hoa
 radiation pattern	biểu đồ bức xạ
@@ -1659,13 +1472,11 @@ railing (on a balcony)	bao lơn
 ranger	biệt kích
 reasonable	biết điều
 reassure) the population or people	an dân
-rebellion	biến loạn
 rebellion	biến động
 receipt	biên lai
 receive an order respectfully	bái mạng
 reckless	anh hùng chủ nghĩa
 red american	Mỹ đỏ
-red cross	Hồng Thập Tự
 red cross	Hội Hồng Thập Tự
 red square (in moscow)	Trường Đỏ
 reentrant	ao khúc tuyến
@@ -1675,15 +1486,11 @@ reform	biến cách
 regret	a
 regulations)	ban bố
 relations; to be related	bà con
-relatives	bà con
 relatives	bà con họ hàng
-relaxed	an nhàn
 relaxed	an lòng
 release	buông ra
 religious affairs director (cao dai)	Thượng Phẩm
 religious ceremony	buổi lễ tôn giáo
-report	bài phúc trình
-report	biên bản
 report	bài tường thuậ
 reportedly on business	anh ta đến đây, nói là có việc
 representation	biểu tượng
@@ -1695,7 +1502,6 @@ retail store; to sell at retail	bán lẻ
 retailer	bán lẻ
 retirement bureau	Sở Hưu Bổng
 reveal	biểu hiện
-revolt	biến động
 revolt	biến loạn
 rheostat	biến trở
 rice cake	bánh tẻ
@@ -1713,10 +1519,8 @@ roll	bay quay tròn
 rolling ball	bi xoay
 rolling waves	ba đào
 rolling-pin	bàn dát
-roman	La Mã
 roman	La Tinh
 romanization	La Tinh hóa
-rome	La Mã
 rome	Roma
 room and board	bao ăn ở
 roommate	bàn đồng ngũ
@@ -1735,26 +1539,11 @@ russian president	Tổng thống Nga
 ryuukyu	Lưu Cầu
 sabbath	an nhật
 sack	bào
-sad	buồn
-sad	bi thảm
-sad	buồn rười rượi
-sad	buồn bực
-sad	bi hoài
-sad	bi ai
-sad	buồn bã
-sad	buồn phiền
-sad	buồn tủi
-sad	buồn rầu
-sad	bi sầu
-sad	ai bi
 sad	buồn tẻ
 sad news (of a death)	ai tín
 sadness and gladness	bi hoan
 safe	an
-safe and sound	an khang
 safe and sound	an thân
-safety	an toàn
-safety	an
 safety	an ninh
 safety area	an toàn khu
 saga	anh hùng ca
@@ -1766,7 +1555,6 @@ san francisco	Cựu Kim Sơn
 sanatorium	an dưỡng đường
 sand table	bàn cát
 sandwich	bánh mì
-sanskrit	Phạn tự
 sanskrit	Phạn ngữ
 sanskrit studies	Phạn học
 sash	bao tượng
@@ -1781,7 +1569,6 @@ scarlet fever	ban đỏ
 scatter bomb	bom mảnh
 scholar	bác học
 scholarly tradition	Nho phong
-science and technology	Khoa Học và Kỹ Thuật
 science and technology	KHĐT
 scientist	bác học
 scoundrel	ba que
@@ -1791,7 +1578,6 @@ screw-cutter	bàn ren
 screw-wheel	bánh vít
 sea	biển
 sea of flames	biển lửa
-seated	an tọa
 seated	an vị
 secluded	biệt tịch
 secluded buddhist convent or temple	am mây
@@ -1806,7 +1592,6 @@ section; (2) unit of time; (3) to confer	ban
 secular affairs director (cao dai)	Thượng Sanh
 secure	an toàn
 secure; (2) saddle	an
-security	an
 security	an ninh
 security council	Hội Đồng Bảo An
 security measures	biện pháp an ninh
@@ -1847,7 +1632,6 @@ semipolar	bán cực
 semitone	bán âm
 semivowel	bán mẫu âm
 seoul	Hán Thành
-separate	biện biết
 separate	biệt lập
 separated; separation	biệt ly
 separation	biệt cư
@@ -1857,7 +1641,6 @@ servant	a hoàn
 service	binh sở
 service number	binh số
 serviceman	binh sĩ
-session	buổi họp
 session	buổi họp mặt
 set	bài liệt
 set out	bày hàng
@@ -1865,19 +1648,12 @@ set up	bày
 several	ba bảy
 shack	am
 shanghai	Thượng Hải
-she	bà ta
 she	bà ấy
 sheet music	bài đàn
 shield	bao che
 shikoku (region of japan)	Tứ Quốc
 shinto	Thần đạo
 shoebrush	bàn chải giầy
-show	buồi hát
-show	bày hàng
-show	biểu lộ
-show	biểu
-show	biểu dương
-show	bày
 show	biểu diễn
 show of force	biểu dương lực lượng
 showa restoration	Thái Hòa Phục Hưng
@@ -1891,12 +1667,10 @@ sign; (3) miserly	biển
 silhouette target	bia hình
 simplified chinese (characters)	Trung Hoa đơn giản
 singapore	Tân Gia Ba
-sino-vietnamese	Hán Việt
 sino-vietnamese	Hoa Việt
 sinus medii	Lõm Giũa
 sinus roris	Lõm Sương
 sitting	an tọa
-slab	bi
 slab	bia
 slave trade; to trade in slaves	buôn người
 sleep like a log; sound (of sleep)	an giấc
@@ -1914,11 +1688,9 @@ small wine bottle; (2) to bleat	be
 smallish	be bé
 smeared	be bét
 snow-flaked cake (sprinkled with powdered sugar)	bánh in
-so many	bao
 so many	biết mấy
 so many times	bao nhiêu lần
 so many years	bao nhiêu năm
-so much	bao
 so much	biết mấy
 soar	bay liệng
 social security	an ninh xã hội bắt đầu
@@ -1935,26 +1707,19 @@ some	bao
 someone	ai
 someone else	ai khác
 somewhat proficient	bán chuyên
-song	bài hát
 song	bài ca
-sorceress	bà cốt
 sorceress	bà đồng
-sorrowful	buồn tủi
-sorrowful	bi
 sorrowful	buồn rầu
 sound encoding	biên mã âm thanh
 sound of a bell ringing	boong boong
 south africa	Nam Phi
 south america	Nam Mỹ
-south korea	Nam Hàn
 south korea	Nam Triều Tiên
 south pole	Nam Cực
 south vietnamese pajamas	bà ba
 southern california	Nam Cali
-soviet	Xô Viết
 soviet	Sô Viết
 soviet russia	Nga Sô
-soviet union	Liên Bang Sô Viết
 soviet union	Liên Bang Xô Viết
 spain	Tây Ban Nha
 spanish	Tây Ban Nha
@@ -1970,7 +1735,6 @@ specificity	biệt tính
 spectator	bàng quan
 speech	bài diền văn
 spike-board	bàn chông
-sponge cake	bánh bò
 sponge cake	bánh bông lan
 sporangium	bào tử nang
 spore	bào tử
@@ -1991,20 +1755,16 @@ statistical table	biểu thống kê
 statoscope	biến áp kế
 steering wheel	bánh lái
 steering wheel (of a car)	bánh trước của xe
-stele	bia đá
 stele	bi ký
 stele; (2) marble (toy)	bi
 stele; (2) target	bia
 stick	ba toong
 sticky rice cake	bánh dẻo
 stillness	an hảo
-stingy	bon chen
-stingy	biển
 stingy	bo xiết
 stock of a rifle	báng súng
 stomach	bao tử
 stone	bia
-stone slab	bia đá
 stone slab	bi ký
 stooge	bung xung
 strange development	biến chuyển lạ lùng
@@ -2036,9 +1796,6 @@ sweetheart	a măng
 swiss	Thụy Sĩ
 switzerland	Thụy Sĩ
 symbol	biểu tượng
-symbol	biểu hiện
-symbol	biểu hiệu
-symbol	biểu tượng
 symbolize; representative	biểu tượng
 sympathize	ai
 syngman rhee	Lý Thừa Vãn
@@ -2068,10 +1825,8 @@ temple; cottage	am
 test	bài thi
 test bench	bàn thử
 test flight	bay thử
-text	bài khóa
 text	bài văn
 thai	Thái
-thailand	Thái Lan
 thailand	Xiêm
 thankful	biết ơn
 thanksgiving (american holiday)	Lễ Tạ Ơn
@@ -2106,13 +1861,11 @@ the math problem was child’s play	bài toán làm như chơi
 the middle ages	Trung Cổ
 the milky way	Dải Ngân hà
 the ministry of international trade and industry (miti)	﻿Bộ Ngoại Thương và Kỹ Nghệ
-the netherlands; dutch	Hòa Lan
 the netherlands; dutch	Hà Lan
 the next morning	buổi sáng hôm sau
 the officials	bách quan
 the old lady is a little hard of hearing	bà cụ hơi nghểnh ngãng
 the pacific ocean	Thái Bình Dương
-the people	bách tính
 the people	bá tánh
 the philippines; filipino	Phi Luật Tân
 the polish president became a puppet of russia	Tổng Thống Ba Lan đã làm bù nhìn chi Ngã
@@ -2144,7 +1897,6 @@ theoretical graph	biểu đồ lý thuyết
 there is no life on the moon	Không có sự sống trên Trăng
 there is nothing at all	Chả có gì sốt
 the‎‎y’ve rented them all already	Họ muốn hết rồi
-thirty	ba mươi
 thirty	ba chục
 this afternoon	buổi chiều nay
 this morning	ban sáng
@@ -2161,7 +1913,6 @@ three responsibilities (women’s emulation movement)	ba đảm đang
 three rounds of serving wine or burning incense	ba tuần
 three silences	ba không
 three spearhead-attack	ba mũi giáp công
-three times	ba cái
 three times	ba lần
 three years	ba thu
 three-fourths	ba phần tư
@@ -2171,7 +1922,6 @@ thành phố hồ chí minh	TPHCM
 thủ tướng	TT
 tiananmen	Thiên An Môn
 tibet	Tây Tạng
-tibetan	Tây Tạng
 tibetan	Tang
 tibetan buddhism	Lạt Ma Giáo
 tien tsin	Thiên Tân
@@ -2187,9 +1937,7 @@ to aid	bang trợ
 to annotate	biên chú
 to answer respectfully	bái đáp
 to ape	a dua
-to argue	biện luận
 to argue	biện bác
-to arrange	bày biện
 to arrange	an bài
 to array troops	bài binh bố trận
 to auction	bán đấu giá
@@ -2212,26 +1960,17 @@ to bless	ban phước
 to bow	bái
 to bow to one’s ancestors	bái tổ
 to brag	ba hoa
-to broadcast	bá cáo
 to broadcast	bá âm
 to build a bridge	bác cầu
 to burst forth	bung ra
 to bury	an táng
 to calm (quiet	an dân
-to change	biến chuyển
-to change	biến dịch
-to change	biến cải
-to change	biến chất
-to change	biến chế
-to change	biến hóa
-to change	biến tượng
 to change	biến đổi
 to change; change	biến thiên
 to characterize	biệu tính
 to cheat in commerce	buôn gian bán lận
 to circle (of an airplane)	bay quần
 to clearly show	biện bạch
-to cling to	bám chặt
 to cling to	bám riết
 to cling to power	bám giữ quyền lực
 to comfort	an ủi
@@ -2239,7 +1978,6 @@ to comfort oneself	an ủi mình
 to comfort the victims	an ủi nạn nhân
 to compile	biên soạn
 to consist of	bao gồm
-to contain	bao hàm
 to contain	bao quát
 to contrive (unnecessary things)	bày vẽ
 to correct	biện chính
@@ -2248,8 +1986,6 @@ to cover up	bao phủ
 to crave	ao ước
 to create (unnecessary things)	bày đặt
 to create unnecessary work	bày việc
-to criticize	bài bác
-to criticize	biếm
 to criticize	bác bẻ
 to cut (off)	beng
 to cut the neck of	beng cổ
@@ -2258,22 +1994,14 @@ to deal heroin	buôn bán bạch phiến
 to deal in foreign currencies	buôn bạc
 to debate	bàn bạc
 to decide (by a vote)	biểu quyết
-to defend	biện hộ
 to defend	bào chữa
 to demonstrate against the government	biểu tình phản đối nhà nước
 to demonstrate; demonstration	biểu tình
 to detail	biệt phái
 to detain separately	biệt giam
 to develop	bành trướng
-to disappear	biến mất
-to disappear	biệt dạng
 to disappear	biến đi
 to disappear completely	biến đi mất hết
-to discuss	bàn luận
-to discuss	bàn cãi
-to discuss	biện thuyết
-to discuss	bàn chuyện
-to discuss	bàn định
 to discuss	bài cãi
 to discuss (sth)	bàn về
 to discuss and argue	bàn tán
@@ -2290,21 +2018,16 @@ to drop one’s arms	buông tay
 to drop some sharp words	buông xõng
 to dump goods	bán phá giá
 to edit	biên tập
-to embezzle	biển thủ công quỹ
 to embezzle	biển thủ
 to encircle	bao vây
 to encode; encoding	biên mã
 to encrypt	biến chữ
 to enjoy (peacefully)	an hưởng
 to evaporate	bay hơi
-to excrete	bài tiết
 to excrete	bài xuất
 to exhibit	biểu diễn
 to expand	bành
-to explain	biện giải
 to explain	biện minh
-to express	biểu đồng tinh
-to express	bày tỏ
 to express	biểu thị
 to express concern	bày tỏ sự lo ngại
 to express one’s ideas	bày tỏ ý kiến
@@ -2320,7 +2043,6 @@ to fly down	bay xuống
 to fly into	bay vào
 to fly to	bay chuyền
 to fly very low	bay la
-to follow	a tùng
 to follow	a tòng
 to follow close or hard on somebody’s heels	bám sát
 to force	buộc
@@ -2345,15 +2067,12 @@ to hit one hundred percent	bách phát bách trúng
 to hold private discussions	bàn mảnh
 to hotly debate	bàn cãi sôi nổi
 to hug	bá cổ
-to issue	ban hành
 to issue	ban bố
 to issue a decree	ban hành sắc luật
 to issue a law	ban bố luật pháp
 to know	biết
-to know about	biết tới
 to know about	biết về
 to know beforehead	biết trước
-to know clearly	biết chắc
 to know clearly	biết rõ
 to know everything about	biết hết về
 to know everything about sth	biết hết mọi thứ về
@@ -2368,7 +2087,6 @@ to know oneself	biết thân
 to know one’s mistakes	biết lỗi
 to know one’s ways about in a city	biết hết ngõ ngách một thành phố
 to know something inside and out	am hiểu cặn kẽ về gì
-to know that	biết là
 to know that	biết rằng
 to know the value	biết giá trị
 to know thoroughly	am tường
@@ -2436,8 +2154,6 @@ to romanize	La Tinh hóa
 to run at full speed	ba chân bốn cẳng
 to run fast (vehicles)	bon bon
 to rush at someone	a vào người nào
-to sacrifice	bán tống bán tháo
-to sacrifice	bán đổ bán tháo
 to sacrifice	bán lỗ
 to screen	bao che
 to sell	bán chác
@@ -2447,7 +2163,6 @@ to sell at a low or reduced price	bán rẻ
 to sell at a lower price	bán hạ giá
 to sell for cash	bán tiền mặt
 to sell goods	bán hàng
-to sell in bulk	bán sỉ
 to sell in bulk	bán mớ
 to sell on commission	buôn hàng xách
 to sell on credit	bán chịu
@@ -2489,7 +2204,6 @@ to trade from afar	buôn chuyến
 to transcribe	biên chép
 to transfer	bàn giao
 to transfer an office	bàn giao chức vụ
-to transform	biến thế
 to transform	biến dạng
 to translate	biên dịch
 to transliterate someone’s name into vietnamese	Việt hóa tên người
@@ -2506,7 +2220,6 @@ to yoke the oxen	buộc bò vào ách
 tombstone	bia đá
 tonnage	bài thủy lượng
 tonsil	a mi đan
-toothbrush	bàn chải đánh răng
 toothbrush	bàn chải răng
 topcoat	bành tô
 touching	bi cảm
@@ -2518,16 +2231,11 @@ trade; to trade	buôn bán
 traffic	buôn gian bán lận
 traffic security	an ninh hệ thống liên lạc
 tragedy	bi kịch
-tragic	bi ai
 tragic	bi đát
 tragic comedy	bi hài kịch
 tranquil	an thân
 tranquility	an tĩnh
 tranquilizer; to tranquillize	an thần
-transform	biến hóa
-transform	biến tượng
-transform	biến cải
-transform	biến chế
 transform	biến đổi
 transformer	biến áp
 translation	bài dịch
@@ -2542,9 +2250,6 @@ tricycle	ba gác
 trike	ba gác
 trinity	ba ngôi
 troop unit	binh đoàn
-troops	binh sĩ
-troops	binh ngũ
-troops	binh đội
 troops	binh lính
 tropical almond	bàng
 trung quốc	TQ
@@ -2555,7 +2260,6 @@ turning table	bàn xoay
 turntable	bàn quay
 turtle	ba ba
 twilight	buổi hoàng hôn
-typhoid fever	ban cua
 typhoid fever	ban chua
 tây lịch	TL
 tổng giám đốc	TGĐ
@@ -2572,41 +2276,30 @@ undisciplined	ba lăng nhăng
 undulate	ba động
 undulating flying	bay đảo lên đảo xuống
 unexpectedly	ai dè
-unhappy	buồn bực
 unhappy	buồn bã
 unhappy morose; uninteresting; to want to	buồn rầu
 unharmed	an thân
 united nations	Liên Hiệp Quốc
-united states	Hoa Kỳ
-united states	Hiệp Chủng Quốc
 united states	Huê kỳ
 united states of america; american	Huê Kỳ
 unrestrained	buông thả
 unusual talent	biệt tài
-ups and downs	ba đào
 ups and downs	ba chìm bẩy nổi
 uranus	Thiên vương tinh
 us armed forces	Quân Độ Hoa Kỳ
 us dollar	Mỹ Kim
 usa	Mỹ
 usis	Sở Thông Tin Hoa Kỳ
-usom	Cơ Quan Viện Trợ Mỹ
 usom	Du Xom
 usurp	bá chiếm
 utter	buông lời
 valiant	anh dũng
-valuable lesson	bài học đáng giá
 valuable lesson	bài học quý giá
-vanish	biệt dạng
-vanish	biến đi
 vanish	biến mất
 vanish; (2) to change	biến
 variable	biến số
 variance	biến tố
-variant	biến hiệu
-variant	biến thái
 variant	biến thể
-variation	biến loại
 variation	biến tiết
 vary	biến đổi
 vast	bao la
@@ -2615,9 +2308,6 @@ vatican; central building of a religion	Tòa Thánh
 vc	Vi Xi
 veda	Vệ Ðà
 venus	Kim Tinh
-very sad	buồn lắm
-very sad	buồn tênh
-very sad	buồn xo
 very sad	buồn rượi
 vientiane	Vạn Tượng
 viet cong	Vi Xi
@@ -2627,13 +2317,11 @@ vietnam	Việt Nam
 vietnam bank for agriculture	Ngân Hàng Nông Nghiệp
 vietnam economic times	Việt Nam kinh tế thời báo
 vietnam of old	Việt Nam ngày xưa
-vietnamese	Việt Nam
 vietnamese	Việt
 vietnamese - chinese	Việt Hoa
 vietnamese air force	Không Quân Việt Nam
 vietnamese and russia alike	Việt Nam cũng như Nga
 vietnamese as well as russian	Việt Nam cũng như Nga
-vietnamese communists	Việt cộng
 vietnamese communists	Việt Cộng
 vietnamese embassy	Sứ Quán Việt Nam
 vietnamese king (1840-1883)	Tự Đức
@@ -2663,7 +2351,6 @@ walking	biết đi
 want to sleep	buồn ngũ
 war	binh hỏa
 war situation	binh thế
-warfare	binh đao
 warfare	binh hỏa
 warsaw	Vacxava
 washington	Hoa Thịnh Đốn
@@ -2684,11 +2371,9 @@ what are you yawning for?	Ngáp gì?
 what can we do	biết làm thế nào được
 what can we use as evidence?	Lấy gì làm bằng?
 when	bao giờ
-whenever	bao giờ cũng
 whenever	bao giờ
 which color do you like best?	anh thích màu nào hơn
 white american	Mỹ trắng
-who	ai
 who	Tổ Chức Y Tế Thế Giới
 who (doesn’t)	ai chẳng
 who can remember?	ai mà nhớ được
@@ -2697,8 +2382,6 @@ who is it? who goes there?	ai đấy
 who is there?	ai đó?
 who knows	biết đâu
 who knows?	ai mà biết được
-whoever	ai
-whoever	ai cũng
 whoever	ai ai cũng đều
 wholesale	bán sỉ
 why?	Sao vậy?
@@ -2720,12 +2403,8 @@ world health organization	Tổ Chức Y Tế Thế Giới
 world war ii	Trận Thế Chiến Thứ Nhất
 world wide web	Liên Mạng Toàn Cầu
 worthless	ba lăng nhăng
-wrap	bao phủ
 wrap	bao trùm
-wrapping	bào
 wrapping	bao bì
-write	biên tập
-write	biên chép
 write	biên soạn
 write down	biên chác
 writer	biên tập viên
@@ -2739,11 +2418,8 @@ yes sir	Vậng ạ
 you are going too fast	anh đi mau quá
 you ought to go to play	anh nên đi chơi
 young male driver	anh tài xế
-young man	anh thanh niên
 young man	anh chàng
 younger brother	bào đệ
 yugoslavia	Nam Tư
 yunnan	Vân Nam
-hello	xin chao
-fuck	khốn nạn
-apologize	xin lỗi
+﻿anyone	bất kìa ai
