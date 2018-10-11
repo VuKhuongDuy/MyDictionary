@@ -12,6 +12,8 @@ public class Word {
     
     Word(String spelling,String explain)
     {
+        spelling=spelling.toLowerCase();
+        explain=explain.toLowerCase();
         this.Spelling = spelling.trim();
         this.Explain = explain.trim();
     }

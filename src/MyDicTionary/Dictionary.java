@@ -70,6 +70,8 @@ public final class Dictionary {
         Map<String,String> listResult = new TreeMap<>();
         if(spelling.length()==0)
             return listWord;
+        
+        spelling =spelling.toLowerCase();
         int x=0;
         for(String key:listWord.keySet())
         {
@@ -94,6 +96,9 @@ public final class Dictionary {
     }
 
     Boolean edit(String spellingOld,String spellingNew, String explain) {
+        spellingNew=spellingNew.toLowerCase();
+        spellingOld=spellingOld.toLowerCase();
+        explain=explain.toLowerCase();
         try{
             listWord.remove(spellingOld);
             listWord.put(spellingNew, explain);
@@ -103,6 +108,7 @@ public final class Dictionary {
     }
 
     Boolean delete(String spelling) {
+        spelling=spelling.toLowerCase();
         spelling = spelling.trim();
         if(!listWord.containsKey(spelling))
             return false;
@@ -138,23 +144,12 @@ public final class Dictionary {
     
     String translateByGoogle(String language,String spelling)
     {
+        spelling=spelling.toLowerCase();
         String explain = "!!!Không có ý nghĩa!!!";
         try{
             explain = GoogleTranslate.translate(language, spelling);
         }catch(IOException e){}
         return explain;
-    }
-    
-    void printList(Map<String,String> list) {
-//        CreatList(); 
-        Set<String> keySet= list.keySet();
-        for(String key:keySet)
-        {
-            System.out.print(key);
-            for(int i=0;i<45-key.length();i++)
-                System.out.print(" ");
-            System.out.print(list.get(key)+"\n");
-        }
     }
     
     void ghiFile() {
@@ -182,24 +177,16 @@ public final class Dictionary {
         } catch (IOException ex) {}
      }
     
-//     void ghiFile() {
-//        //QuickSort(listWord, 0, listWord.size());
-//        Map<String,String> map = new TreeMap<>();
-//        try {
-//            File f = new File(pathFILE);
-//            try (FileWriter fw = new FileWriter(f)) {
-//                for (String key:listWord.keySet()) {
-//                    if(!map.containsKey(key))
-//                    {
-//                        map.put(key, listWord.get(key));
-//                        String spelling_ = key + "\t";
-//                        fw.write(spelling_);
-//                        String explain_ = listWord.get(key) + "\n";
-//                        fw.write(explain_);
-//                    }
-//                }
-//            }
-//        } catch (IOException ex) {
+    //    
+//    void printList(Map<String,String> list) {
+////        CreatList(); 
+//        Set<String> keySet= list.keySet();
+//        for(String key:keySet)
+//        {
+//            System.out.print(key);
+//            for(int i=0;i<45-key.length();i++)
+//                System.out.print(" ");
+//            System.out.print(list.get(key)+"\n");
 //        }
-//     }
+//    }
 }
