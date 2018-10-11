@@ -161,6 +161,7 @@ an tọa	sitting, seated
 an tức	to rest
 an tức hương	(gun) benzoin
 an vị	seated, in one’s seat, in place, in one’s seat
+an đê hít	aldehyde
 an định	stable, firm
 an ủi	to comfort, console, mitigate, ease, alleviate; comfort, solace
 an ủi mình	to comfort oneself
@@ -54054,3 +54055,7 @@ yểu điệu	graceful
 ỷ eo	reproach someone with something
 ỷ lại	to depend, rely on others
 ỷ thế	count on one’s power, one’s position, one’s influence
+﻿a căn đình	Argentina, Argentine, Argentinean
+﻿bộ ngoại thương và kỹ nghệ	the Ministry of International Trade and Industry (MITI)
+﻿quay phim	to film, record
+﻿đưa trả	to bring back, carry back

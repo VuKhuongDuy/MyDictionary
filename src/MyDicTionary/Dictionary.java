@@ -157,24 +157,49 @@ public final class Dictionary {
         }
     }
     
-     void ghiFile() {
+    void ghiFile() {
         //QuickSort(listWord, 0, listWord.size());
         Map<String,String> map = new TreeMap<>();
-        try {
-            File f = new File(pathFILE);
-            try (FileWriter fw = new FileWriter(f)) {
-                for (String key:listWord.keySet()) {
-                    if(!map.containsKey(key))
+        try
+        {
+            FileWriter fileWriter = new FileWriter(pathFILE);
+            BufferedWriter buffed = new BufferedWriter(
+		   new OutputStreamWriter(new FileOutputStream(pathFILE), "UTF8"));
+            for (String key : listWord.keySet())
+            {
+                    if (!map.containsKey(key)) 
                     {
                         map.put(key, listWord.get(key));
                         String spelling_ = key + "\t";
-                        fw.write(spelling_);
+                        buffed.write(spelling_);
                         String explain_ = listWord.get(key) + "\n";
-                        fw.write(explain_);
+                        buffed.write(explain_);
                     }
-                }
             }
-        } catch (IOException ex) {
-        }
+            
+            buffed.close();
+            fileWriter.close();
+        } catch (IOException ex) {}
      }
+    
+//     void ghiFile() {
+//        //QuickSort(listWord, 0, listWord.size());
+//        Map<String,String> map = new TreeMap<>();
+//        try {
+//            File f = new File(pathFILE);
+//            try (FileWriter fw = new FileWriter(f)) {
+//                for (String key:listWord.keySet()) {
+//                    if(!map.containsKey(key))
+//                    {
+//                        map.put(key, listWord.get(key));
+//                        String spelling_ = key + "\t";
+//                        fw.write(spelling_);
+//                        String explain_ = listWord.get(key) + "\n";
+//                        fw.write(explain_);
+//                    }
+//                }
+//            }
+//        } catch (IOException ex) {
+//        }
+//     }
 }

@@ -64,8 +64,6 @@ public class DictionaryForm extends javax.swing.JFrame {
         txtEdit = new javax.swing.JTextField();
         RBtnOffline = new javax.swing.JRadioButton();
         RBtnOnline = new javax.swing.JRadioButton();
-        txtAddSpelling = new javax.swing.JTextField();
-        txtAddExplain = new javax.swing.JTextField();
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
@@ -234,30 +232,6 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        txtAddSpelling.setFont(new java.awt.Font("Tahoma", 2, 11)); // NOI18N
-        txtAddSpelling.setForeground(new java.awt.Color(153, 153, 153));
-        txtAddSpelling.setText("Add spelling...");
-        txtAddSpelling.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusGained(java.awt.event.FocusEvent evt) {
-                txtAddSpellingFocusGained(evt);
-            }
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtAddSpellingFocusLost(evt);
-            }
-        });
-
-        txtAddExplain.setFont(new java.awt.Font("Tahoma", 2, 11)); // NOI18N
-        txtAddExplain.setForeground(new java.awt.Color(153, 153, 153));
-        txtAddExplain.setText("Add explain...");
-        txtAddExplain.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusGained(java.awt.event.FocusEvent evt) {
-                txtAddExplainFocusGained(evt);
-            }
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtAddExplainFocusLost(evt);
-            }
-        });
-
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -272,9 +246,7 @@ public class DictionaryForm extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(txtEdit)
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 296, Short.MAX_VALUE)
-                            .addComponent(txtAddSpelling)
-                            .addComponent(txtAddExplain)))
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 296, Short.MAX_VALUE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(48, 48, 48)
                         .addComponent(RBtnAV)
@@ -317,23 +289,18 @@ public class DictionaryForm extends javax.swing.JFrame {
                             .addComponent(txtEdit, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(txtAddSpelling, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(txtAddExplain, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jScrollPane1)))
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 299, Short.MAX_VALUE)
+                            .addComponent(jScrollPane2)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(btnEdit, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnSpeakFast, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnSpeakSlow, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addComponent(btnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
+                        .addComponent(btnDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -399,12 +366,19 @@ public class DictionaryForm extends javax.swing.JFrame {
     }//GEN-LAST:event_txtSearchKeyReleased
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
-        if(dictionary.add(txtAddSpelling.getText(), txtAddExplain.getText()))
-            JOptionPane.showMessageDialog(null, "Add success", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
-        else
-            JOptionPane.showMessageDialog(null, "Add failed", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
-        LoadListWord(dictionary.listWord);
-
+        String spelling = JOptionPane.showInputDialog(rootPane,"Spelling: ");
+        if(spelling!=null)
+        {
+            String explain = JOptionPane.showInputDialog(rootPane,"Explain: ");
+            if(explain!=null)
+            {
+                if(dictionary.add(spelling, explain))
+                    JOptionPane.showMessageDialog(null, "Add success", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
+                else
+                    JOptionPane.showMessageDialog(null, "Add failed", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
+                LoadListWord(dictionary.listWord);
+            }
+        }        
     }//GEN-LAST:event_btnAddActionPerformed
 
     private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteActionPerformed
@@ -580,44 +554,6 @@ public class DictionaryForm extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_RBtnOnlineActionPerformed
 
-    private void txtAddSpellingFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtAddSpellingFocusGained
-        if(txtAddSpelling.getText().equals("Add spelling...")){
-            txtAddSpelling.setText("");
-            txtAddSpelling.setForeground(Color.BLACK);
-            Font font = new Font(("Tahoma"),Font.PLAIN,13);
-            txtAddSpelling.setFont(font);
-        }
-    }//GEN-LAST:event_txtAddSpellingFocusGained
-
-    private void txtAddSpellingFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtAddSpellingFocusLost
-        if(txtAddSpelling.getText().length()==0)
-        {
-            txtAddSpelling.setText("Add spelling...");
-            txtAddSpelling.setForeground(Color.GRAY);
-            Font font = new Font(("Tahoma"),Font.ITALIC,13);
-            txtAddSpelling.setFont(font);
-        }
-    }//GEN-LAST:event_txtAddSpellingFocusLost
-
-    private void txtAddExplainFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtAddExplainFocusGained
-         if(txtAddExplain.getText().equals("Add explain...")){
-            txtAddExplain.setText("");
-            txtAddExplain.setForeground(Color.BLACK);
-            Font font = new Font(("Tahoma"),Font.PLAIN,13);
-            txtAddExplain.setFont(font);
-        }
-    }//GEN-LAST:event_txtAddExplainFocusGained
-
-    private void txtAddExplainFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtAddExplainFocusLost
-        if(txtAddExplain.getText().length()==0)
-        {
-            txtAddExplain.setText("Add explain...");
-            txtAddExplain.setForeground(Color.GRAY);
-            Font font = new Font(("Tahoma"),Font.ITALIC,13);
-            txtAddExplain.setFont(font);
-        }
-    }//GEN-LAST:event_txtAddExplainFocusLost
-
     public static void main(String args[]) {
        
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -671,8 +607,6 @@ public class DictionaryForm extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextField txtAddExplain;
-    private javax.swing.JTextField txtAddSpelling;
     private javax.swing.JTextArea txtArListWord;
     private javax.swing.JTextField txtEdit;
     private javax.swing.JTextField txtSearch;
