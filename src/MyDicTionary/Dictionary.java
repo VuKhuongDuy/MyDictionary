@@ -38,7 +38,7 @@ public final class Dictionary {
 
     void creatList(String pathFile) {
         if (pathFile == null) {
-            pathFile = pathFile;
+            pathFile = pathFILE;
         }
         
         String s1, s2, s3;
@@ -79,7 +79,7 @@ public final class Dictionary {
             {
                 listResult.put(key, listWord.get(key));
                 x=1;
-            }
+            }            
             else if(x==1)
                 break;
         }
