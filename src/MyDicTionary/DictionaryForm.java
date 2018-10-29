@@ -97,7 +97,7 @@ public class DictionaryForm extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(153, 153, 255));
 
-        btnSpeakFast.setBackground(new java.awt.Color(255, 153, 51));
+        btnSpeakFast.setBackground(new java.awt.Color(153, 153, 255));
         btnSpeakFast.setIcon(new javax.swing.ImageIcon("D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\Image\\icons8-speaker-30.png")); // NOI18N
         btnSpeakFast.setBorder(null);
         btnSpeakFast.addActionListener(new java.awt.event.ActionListener() {
@@ -106,7 +106,7 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        btnEdit.setBackground(new java.awt.Color(255, 153, 51));
+        btnEdit.setBackground(new java.awt.Color(153, 153, 255));
         btnEdit.setIcon(new javax.swing.ImageIcon("D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\Image\\icons8-pencil-40.png")); // NOI18N
         btnEdit.setBorder(null);
         btnEdit.addActionListener(new java.awt.event.ActionListener() {
@@ -115,7 +115,7 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        btnDelete.setBackground(new java.awt.Color(255, 153, 51));
+        btnDelete.setBackground(new java.awt.Color(153, 153, 255));
         btnDelete.setIcon(new javax.swing.ImageIcon("D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\Image\\icons8-full-trash-40.png")); // NOI18N
         btnDelete.setBorder(null);
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -124,7 +124,7 @@ public class DictionaryForm extends javax.swing.JFrame {
             }
         });
 
-        btnAdd.setBackground(new java.awt.Color(255, 153, 51));
+        btnAdd.setBackground(new java.awt.Color(153, 153, 255));
         btnAdd.setIcon(new javax.swing.ImageIcon("D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\Image\\icons8-plus-40.png")); // NOI18N
         btnAdd.setBorder(null);
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
@@ -174,7 +174,7 @@ public class DictionaryForm extends javax.swing.JFrame {
         txtArListWord.setAutoscrolls(false);
         jScrollPane2.setViewportView(txtArListWord);
 
-        btnSpeakSlow.setBackground(new java.awt.Color(255, 153, 51));
+        btnSpeakSlow.setBackground(new java.awt.Color(153, 153, 255));
         btnSpeakSlow.setIcon(new javax.swing.ImageIcon("D:\\Hoc_Tap\\Lap_Trinh\\JAVA\\MyDictionary\\Image\\icons8-speaker-filled-30.png")); // NOI18N
         btnSpeakSlow.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -367,10 +367,12 @@ public class DictionaryForm extends javax.swing.JFrame {
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
         String spelling = JOptionPane.showInputDialog(rootPane,"Spelling: ");
-        if(spelling!=null)
+        spelling = spelling.trim();
+        if(spelling!=null || spelling.length()>0)
         {
             String explain = JOptionPane.showInputDialog(rootPane,"Explain: ");
-            if(explain!=null)
+            explain = explain.trim();
+            if(explain!=null || spelling.length()>0)
             {
                 if(dictionary.add(spelling, explain))
                     JOptionPane.showMessageDialog(null, "Add success", "Thông báo", JOptionPane.INFORMATION_MESSAGE);

@@ -1,15 +1,15 @@
-a (fellow) countryman	một người đồng hương
-a (little) while ago	ban nãy
-a (little) while later	một thoáng sao
-a 100% foreign-owned company	một công ty vốn 100% của ngoại quốc
-a bad egg	phần tử bất hảo
-a bad son who ruins his family	phá gia chi tử
-a bad workman blames his tools	múa vụng chê đất lệch
-a badly dented box	cái hộp móp mép
-a bag of rice	một bao gạo
-a bamboo carrying pole	đòn ống
-a band of children	bầy trẻ
-a bar	một bánh xà phòng
+	
+a (fellow) countryman	một đồng hương
+a (little) while ago	một thời gian ngắn trước
+a (little) while later	a (ít) trong khi sau
+a bad egg	quả trứng xấu
+a bad son who ruins his family	một đứa con trai hư hỏng làm hỏng gia đình
+a bad workman blames his tools	một công nhân xấu đổ lỗi cho công cụ của mình
+a badly dented box	một cái hộp bị rách nặng
+a bag of rice	một bịch gạo
+a bamboo carrying pole	một cây tre mang cột
+a band of children	một nhóm trẻ em
+a bar	một quán bar
 a barren place	đồng khô cỏ cháy
 a beard	một bộ râu
 a beautiful gesture	cử chỉ đẹp
@@ -18737,7 +18737,7 @@ partisan	lính dõng
 partition	vách tường
 partly (to do something)	phần nào ~ phần nào
 partner	đối tác
-party	đảng phái
+party	đảng phái,bữa tiệc
 party affairs	đảng vụ
 party cell executive	chi ủy
 party chairman	chủ tịch đảng
@@ -26189,6 +26189,7 @@ throughout the country	trên khắp nước
 throughout the entire	trên cả
 throughout the month	suốt tháng
 throughout vietnam	trên toàn việt nam
+throw	ném
 throw at random a ball on one of one’s suitors	gieo cầu
 throw in jail	hạ ngục
 throw oneself (with direction)	gieo mình
@@ -37796,12 +37797,10 @@ zero phase sequence impedance	trở kháng thứ tự không
 zero sequence	thứ tự không
 zhuge liang	khổng minh gia cát lượng
 zibet	cầy giông
-zigzag tile	ngói mấu
 zigzags	loằng ngoằng
-zinc block	bản kẽm
+zinc block	khối kẽm
 zinc powder	bột kẽm
 zip	khóa kéo
-zither	tì bà
 zone of a sphere	đới cầu
 zoo	vườn bách thú
 zoochemistry	hóa học động vật
